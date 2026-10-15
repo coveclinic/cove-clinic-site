@@ -46,6 +46,9 @@ export const treatmentLabels = {
   root: "Treatments",
   atAGlance: "At a glance",
   questions: "Questions",
+  questionsIntro: "The things people ask before booking, answered honestly.",
+  questionsAsk: "Something else?",
+  questionsPhone: "Call Gina on 07709 266584",
 };
 
 export const bookingActions = {
