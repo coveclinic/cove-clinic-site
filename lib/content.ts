@@ -133,7 +133,7 @@ export const treatments = {
     {
       name: "Anti-ageing",
       line: "Skin boosters, polynucleotides and PRP to support firmer, healthier skin over time.",
-      href: "/treatments/anti-wrinkle-injections",
+      href: "/treatments/skin-boosters",
       image: {
         src: "/photos/web/treatment-0907.jpg",
         alt: "Gina performing a skin treatment with a handheld device",
@@ -173,7 +173,7 @@ export const practitioner = {
   credentials: [
     "First-class honours degree in Nursing",
     "Registered Nurse",
-    "Foundation and advanced training in toxins and dermal fillers, Acquisition Aesthetics",
+    "Foundation and advanced training in anti-wrinkle injections and dermal fillers, Acquisition Aesthetics",
     "Trained in microneedling, PRP, chemical peels and IV therapy",
   ],
   quote:
@@ -240,7 +240,7 @@ export const questions = {
     },
     {
       q: "How long do results last?",
-      a: "It depends on the treatment and on you. Anti-wrinkle injections typically last three to four months. Dermal and lip fillers typically last six to eighteen months. Skin boosters, polynucleotides and microneedling work best as a short course, with results that build over weeks and are maintained with occasional top-ups. Gina will give you an honest timeline at your consultation.",
+      a: "It depends on the treatment and on you. Anti-wrinkle injections typically last three to six months. Dermal and lip fillers typically last twelve to eighteen months. Skin boosters, polynucleotides and microneedling work best as a short course, with results that build over weeks and are maintained with occasional top-ups. Gina will give you an honest timeline at your consultation.",
     },
     {
       q: "How much do treatments cost?",

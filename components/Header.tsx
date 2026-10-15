@@ -49,6 +49,11 @@ export function Header() {
   const isCurrent = (href: string) =>
     href === "/" ? pathname === "/" : pathname.startsWith(href);
 
+  // A link to the homepage while already on it is a hash change to Next, which keeps the scroll
+  // position; send the reader to the top instead.
+  const toTop = (href: string) =>
+    href === "/" && pathname === "/" ? () => window.scrollTo({ top: 0, behavior: "instant" }) : undefined;
+
   const linkClass = (current: boolean) =>
     `relative py-2 transition-colors duration-200 hover:text-sage ${current ? "text-walnut" : ""}`;
   const underline = (
@@ -60,7 +65,7 @@ export function Header() {
       className={`sticky top-0 z-20 bg-paper transition-[box-shadow] duration-300 ${scrolled ? "shadow-[0_1px_0_0_rgba(22,21,20,0.12)]" : ""}`}
     >
       <div className="relative mx-auto flex h-[72px] max-w-[1392px] items-center justify-between px-6 md:h-[88px] md:px-10">
-        <Link href="/" className="flex items-center text-ink" aria-label={site.name}>
+        <Link href="/" onClick={toTop("/")} className="flex items-center text-ink" aria-label={site.name}>
           <Wordmark />
         </Link>
 
@@ -71,7 +76,7 @@ export function Header() {
               if (l.href !== "/treatments") {
                 return (
                   <li key={l.href}>
-                    <Link href={l.href} aria-current={current ? "page" : undefined} className={linkClass(current)}>
+                    <Link href={l.href} onClick={toTop(l.href)} aria-current={current ? "page" : undefined} className={linkClass(current)}>
                       {l.label}
                       {current ? underline : null}
                     </Link>
@@ -174,7 +179,7 @@ export function Header() {
               <li key={l.href}>
                 <Link
                   href={l.href}
-                  onClick={() => setOpen(false)}
+                  onClick={() => { setOpen(false); toTop(l.href)?.(); }}
                   aria-current={isCurrent(l.href) ? "page" : undefined}
                   className={isCurrent(l.href) ? "text-walnut" : ""}
                 >

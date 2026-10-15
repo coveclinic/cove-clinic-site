@@ -109,7 +109,7 @@ export const treatmentPages: Record<string, TreatmentPage> = {
     ],
     closing: {
       heading: "Ready to talk?",
-      body: "Book online, or call or email, for your free consultation. The clinic is open every day from 8am to 7pm, at 8 Devonshire Street in the centre of Penrith.",
+      body: "Book your free consultation online, or call or email. The clinic is open every day from 8am to 7pm, at 8 Devonshire Street in the centre of Penrith.",
     },
     bookingUrl: "https://coveclinic.collums.co.uk/step/05f5e1010000000000000000/67c74aa250d51700254e7653",
   },
@@ -655,7 +655,7 @@ export const treatmentPages: Record<string, TreatmentPage> = {
     ],
     closing: {
       heading: "Start with a consultation",
-      body: "Filler is planned to your face, so it starts with a conversation. Call or email to arrange a consultation with Gina at 8 Devonshire Street in the centre of Penrith.",
+      body: "Filler is planned to your face, so it starts with a conversation. Book a consultation online, or call or email to arrange one with Gina at 8 Devonshire Street in the centre of Penrith.",
     },
     // The booking system lists no filler services yet; the owner wants the link live regardless (15 Oct 2026).
     bookingUrl: "https://coveclinic.collums.co.uk/step/05f5e1010000000000000000/66fbb62a40250c002508d297",
@@ -744,7 +744,7 @@ export const treatmentPages: Record<string, TreatmentPage> = {
     ],
     closing: {
       heading: "Start with a consultation",
-      body: "Lip filler is planned to your face, so it starts with a conversation. Call or email to arrange a consultation with Gina at 8 Devonshire Street in the centre of Penrith.",
+      body: "Lip filler is planned to your face, so it starts with a conversation. Book a consultation online, or call or email to arrange one with Gina at 8 Devonshire Street in the centre of Penrith.",
     },
     bookingUrl: "https://coveclinic.collums.co.uk/step/05f5e1010000000000000000/66fbb62a40250c002508d297",
   },

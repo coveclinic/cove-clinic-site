@@ -38,7 +38,7 @@ export function FindUs() {
   ];
 
   return (
-    <section aria-labelledby={`${findUs.id}-heading`} className="px-3 pb-6 md:px-6 md:pb-10">
+    <section id={findUs.id} aria-labelledby={`${findUs.id}-heading`} className="scroll-mt-[96px] px-3 pb-6 md:px-6 md:pb-10">
       <div className="mx-auto grid max-w-[1392px] gap-x-16 gap-y-10 rounded-card bg-clay px-7 py-12 text-ink md:px-14 md:py-16 lg:grid-cols-12 lg:gap-y-12">
         <div className="lg:col-span-5">
           <h2
@@ -48,6 +48,9 @@ export function FindUs() {
             {findUs.heading}
           </h2>
           <p className="mt-6 max-w-[36ch] text-[18px] leading-[1.55] text-ink/72 md:text-[20px]">{findUs.body}</p>
+          <div className="mt-8">
+            <Button href={findUs.cta.href} label={findUs.cta.label} />
+          </div>
         </div>
         <div className="lg:col-span-7 lg:self-end">
           <dl className="border-t border-ink/15 text-[16px] md:text-[17px]">
@@ -58,9 +61,6 @@ export function FindUs() {
               </div>
             ))}
           </dl>
-          <div className="mt-7">
-            <Button href={findUs.cta.href} label={findUs.cta.label} />
-          </div>
         </div>
 
         <div className="relative aspect-[4/5] overflow-hidden rounded-[20px] bg-walnut lg:col-span-5 lg:aspect-auto lg:self-stretch">

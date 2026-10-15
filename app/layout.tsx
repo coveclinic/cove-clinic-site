@@ -46,7 +46,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en-GB"
-      className={`${fraunces.variable} ${figtree.variable} h-full scroll-smooth`}
+      className={`${fraunces.variable} ${figtree.variable} h-full`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
