@@ -167,13 +167,25 @@ export function TreatmentPage({ t }: { t: TreatmentPageContent }) {
         {/* Questions, on the same grid */}
         <Section id={`${t.slug}-questions`} className="lg:pt-20 lg:pb-20">
           <div className="grid gap-8 lg:grid-cols-12 lg:gap-x-16">
-            <div className="lg:col-span-5 xl:col-span-4">
+            <div className="lg:sticky lg:top-[112px] lg:col-span-5 lg:self-start xl:col-span-4">
               <h2
                 id={`${t.slug}-questions-heading`}
-                className="font-display text-[26px] font-normal leading-[1.1] text-ink"
+                className="font-display text-[36px] font-light leading-[1.02] tracking-[-0.01em] text-ink md:text-[44px]"
               >
                 {treatmentLabels.questions}
               </h2>
+              <p className="mt-4 max-w-[32ch] text-[17px] leading-[1.55] text-ink/72 md:text-[18px]">
+                {treatmentLabels.questionsIntro}
+              </p>
+              <p className="mt-5 text-[16px] text-ink/72">
+                {treatmentLabels.questionsAsk}{" "}
+                <a
+                  href={bookingActions.call.href}
+                  className="text-walnut underline decoration-walnut/40 underline-offset-4 transition-colors duration-200 hover:decoration-walnut"
+                >
+                  {treatmentLabels.questionsPhone}
+                </a>
+              </p>
             </div>
             <div className="text-ink lg:col-span-7 lg:col-start-6">
               <Accordion
