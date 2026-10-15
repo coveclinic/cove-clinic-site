@@ -7,6 +7,8 @@ import { Footer } from "@/components/Footer";
 import { Section } from "@/components/Section";
 import { Button } from "@/components/Button";
 import { Accordion } from "@/components/Accordion";
+import { JsonLd } from "@/components/JsonLd";
+import { treatmentGraph } from "@/lib/schema";
 
 /** A full-width hairline between open sections. */
 function Rule() {
@@ -38,6 +40,7 @@ function BookingButtons({ t }: { t: TreatmentPageContent }) {
 export function TreatmentPage({ t }: { t: TreatmentPageContent }) {
   return (
     <>
+      <JsonLd graph={treatmentGraph(t)} />
       <Header />
       <main>
         {/* Masthead: the heading and lead left, the photo right, the two ways to book */}

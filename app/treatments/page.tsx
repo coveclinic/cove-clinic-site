@@ -5,6 +5,8 @@ import { QuestionBar } from "@/components/QuestionBar";
 import { TreatmentsIndex } from "@/components/treatments/TreatmentsIndex";
 import { treatmentPages, treatmentSlugs, treatmentsIndex } from "@/lib/treatments";
 import { site } from "@/lib/content";
+import { JsonLd } from "@/components/JsonLd";
+import { treatmentsIndexGraph } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: treatmentsIndex.title,
@@ -21,6 +23,7 @@ export default function Treatments() {
   const items = treatmentSlugs.map((s) => treatmentPages[s]);
   return (
     <>
+      <JsonLd graph={treatmentsIndexGraph} />
       <Header />
       <main>
         <TreatmentsIndex items={items} />

@@ -7,6 +7,8 @@ import { Steps } from "@/components/about/Steps";
 import { QuestionBar } from "@/components/QuestionBar";
 import { Footer } from "@/components/Footer";
 import { about, site } from "@/lib/content";
+import { JsonLd } from "@/components/JsonLd";
+import { aboutGraph } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: about.title,
@@ -27,6 +29,7 @@ function Rule() {
 export default function AboutUs() {
   return (
     <>
+      <JsonLd graph={aboutGraph} />
       <Header />
       <main>
         <AboutMasthead />

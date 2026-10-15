@@ -288,7 +288,7 @@ export function PenrithMap() {
       {/* Street names: hidden on phones, where the map is too small to read them */}
       <g className="hidden fill-stone font-sans sm:block" fontSize="20" letterSpacing="0.3" paintOrder="stroke" stroke="var(--color-paper)" strokeWidth="7" strokeLinejoin="round">
         <text transform="translate(436.6 357.0) rotate(49.9)" dy="6" textAnchor="middle">Devonshire Street</text>
-        <text transform="translate(388.6 267.5) rotate(58.2)" dy="6" textAnchor="middle">Middlegate</text>
+        <text transform="translate(354.3 212.3) rotate(58.2)" dy="6" textAnchor="middle">Middlegate</text>
         <text transform="translate(525.8 531.6) rotate(0.0)" dy="6" textAnchor="middle">Market Square</text>
         <text transform="translate(662.2 626.8) rotate(53.7)" dy="6" textAnchor="middle">King Street</text>
         <text transform="translate(501.8 624.5) rotate(-9.7)" dy="6" textAnchor="middle">Great Dockray</text>
