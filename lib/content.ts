@@ -283,6 +283,8 @@ export const footer = {
     { label: "Terms", href: "/terms" },
   ],
   copyright: `© ${new Date().getFullYear()} Cove Clinic, Penrith`,
+  /** The site credit, approved by the owner (15 Oct 2026). */
+  credit: { label: "Website by Kestrel", href: "https://www.wearekestrel.com/" },
 };
 
 /** Find us: a drawn map of central Penrith with the clinic pinned, above the footer. */

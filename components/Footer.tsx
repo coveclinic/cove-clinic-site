@@ -134,15 +134,27 @@ export function Footer() {
         {/* Small print */}
         <div className={`grid border-t text-[13px] text-paper/60 sm:grid-cols-3 ${cell}`}>
           <p className={`px-7 py-4 sm:border-r md:px-10 lg:px-14 ${cell}`}>{footer.copyright}</p>
-          {footer.legal.map((l, i) => (
-            <Link
-              key={l.href}
-              href={l.href}
-              className={`px-7 py-4 hover:text-paper md:px-10 lg:px-14 ${i < footer.legal.length - 1 ? `sm:border-r ${cell}` : ""}`}
-            >
-              {l.label}
-            </Link>
-          ))}
+          {footer.legal.map((l, i) =>
+            i < footer.legal.length - 1 ? (
+              <Link
+                key={l.href}
+                href={l.href}
+                className={`px-7 py-4 hover:text-paper md:px-10 lg:px-14 sm:border-r ${cell}`}
+              >
+                {l.label}
+              </Link>
+            ) : (
+              // The last cell carries the site credit on its right, so the three columns still line up.
+              <div key={l.href} className="flex items-center justify-between gap-6 px-7 py-4 md:px-10 lg:px-14">
+                <Link href={l.href} className="hover:text-paper">
+                  {l.label}
+                </Link>
+                <a href={footer.credit.href} className="text-paper/40 transition-colors duration-200 hover:text-paper">
+                  {footer.credit.label}
+                </a>
+              </div>
+            ),
+          )}
         </div>
       </div>
     </footer>
