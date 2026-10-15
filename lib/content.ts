@@ -290,14 +290,16 @@ export const findUs = {
   id: "find-us",
   heading: "Find us",
   body: "On Devonshire Street in the centre of Penrith, a minute from Market Square and five minutes' walk from the station.",
-  // PLACEHOLDER: confirm the car park with Gina.
-  parking: "Pay-and-display parking at Bluebell Lane, two minutes away.",
+  parking: "Bluebell Lane and Sandgate car parks, both two minutes away.",
   cta: {
     label: "Get directions",
     href: "https://www.google.com/maps/dir/?api=1&destination=Cove+Clinic,+8+Devonshire+Street,+Penrith+CA11+7SR",
   },
   mapUrl: "https://www.google.com/maps/search/?api=1&query=Cove+Clinic,+8+Devonshire+Street,+Penrith+CA11+7SR",
   pinLabel: "Cove Clinic",
+  /** The ruled list beneath the heading. */
+  labels: { address: "Address", open: "Open", phone: "Phone", parking: "Parking" },
+  scaleLabel: "100 m",
   mapAlt: "A map of central Penrith with Cove Clinic marked on Devonshire Street",
   attribution: { label: "Map data from OpenStreetMap", href: "https://www.openstreetmap.org/copyright" },
 };
