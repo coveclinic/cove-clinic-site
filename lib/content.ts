@@ -297,6 +297,11 @@ export const findUs = {
   },
   mapUrl: "https://www.google.com/maps/search/?api=1&query=Cove+Clinic,+8+Devonshire+Street,+Penrith+CA11+7SR",
   pinLabel: "Cove Clinic",
+  photo: {
+    src: "/photos/web/shopfront.jpg",
+    alt: "The front of Cove Clinic on Devonshire Street, a brown shopfront with the name in gold lettering",
+    position: "50% 50%",
+  },
   /** The ruled list beneath the heading. */
   labels: { address: "Address", open: "Open", phone: "Phone", parking: "Parking" },
   scaleLabel: "100 m",
@@ -497,6 +502,18 @@ export const about = {
   title: "About Gina, Registered Nurse",
   description:
     "Meet Gina, the registered nurse behind Cove Clinic in Penrith: her training, her approach to natural results, and how a visit works. Book a free consultation.",
+  /** The clinic itself, between the letter and the training: the place to go with the person. */
+  space: {
+    id: "the-clinic",
+    heading: "A calm room on Devonshire Street.",
+    body: "One treatment room, one practitioner, and a sofa to sit on while you talk. Nothing about the place is designed to hurry you.",
+    cta: { label: "Find us", href: "/#find-us" },
+    photo: {
+      src: "/photos/web/interior.jpg",
+      alt: "The waiting area at Cove Clinic: a brown velvet sofa, a round table and a lamp by the window",
+      position: "50% 50%",
+    },
+  },
   masthead: {
     id: "about",
     heading: "Hi, I'm Gina.",

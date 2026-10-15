@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Header } from "@/components/Header";
 import { AboutMasthead } from "@/components/about/AboutMasthead";
 import { Letter } from "@/components/about/Letter";
+import { Space } from "@/components/about/Space";
 import { Training } from "@/components/about/Training";
 import { Steps } from "@/components/about/Steps";
 import { QuestionBar } from "@/components/QuestionBar";
@@ -34,6 +35,8 @@ export default function AboutUs() {
       <main>
         <AboutMasthead />
         <Letter />
+        <Space />
+        <Rule />
         <Training />
         <Rule />
         <Steps />
