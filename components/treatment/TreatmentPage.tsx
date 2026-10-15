@@ -181,7 +181,7 @@ export function TreatmentPage({ t }: { t: TreatmentPageContent }) {
                 {treatmentLabels.questionsAsk}{" "}
                 <a
                   href={bookingActions.call.href}
-                  className="text-walnut underline decoration-walnut/40 underline-offset-4 transition-colors duration-200 hover:decoration-walnut"
+                  className="whitespace-nowrap text-walnut underline decoration-walnut/40 underline-offset-4 transition-colors duration-200 hover:decoration-walnut"
                 >
                   {treatmentLabels.questionsPhone}
                 </a>
