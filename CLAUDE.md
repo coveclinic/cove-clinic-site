@@ -25,8 +25,12 @@ The website for Cove Clinic, a nurse-led aesthetic clinic at 8 Devonshire Street
 
 ## How to make a change
 
-1. Never change the `main` branch directly. Make a new branch for each change.
-2. Make the change, then run `npm run build` and `npm run lint`. Both must pass.
-3. Open a pull request with a short plain-English description of what changed and why.
-4. Vercel posts a preview link on the pull request. Check the change there, on a phone and a laptop.
-5. Merging the pull request puts the change live on cove-clinic.co.uk within a minute or two.
+Gina asks for changes in plain English and should never need to use GitHub. Do the git work for her and explain what you did in plain words, without technical terms.
+
+1. Make the change on this session's working branch. Run `npm run build` and `npm run lint`. Both must pass; fix anything that fails.
+2. Commit with a short plain-English message and push the branch.
+3. Vercel builds a preview of the branch within about two minutes. Find its address from GitHub's record of the Vercel deployment for that commit (for example `gh api repos/coveclinic/cove-clinic-site/deployments?sha=<commit>`, then that deployment's statuses, which hold the preview link). Send Gina the link and a one-line summary of what changed, and ask her to check it on her phone and laptop. Preview links ask her to log in to Vercel the first time; she uses Continue with GitHub.
+4. When Gina says it looks right ("publish", "yes", "looks good" and so on), put it live: bring the branch up to date with `main`, then push it to `main` (for example `git fetch origin main && git rebase origin/main && git push origin HEAD:main`). The site at www.cove-clinic.co.uk updates within a minute or two. Tell her it is live.
+5. If she wants something different, keep working on the same branch and send a new preview.
+
+Never push to `main` until Gina has said to publish. Do not open pull requests unless asked. If anything in these steps fails, explain it simply and suggest she contacts Kestrel.
