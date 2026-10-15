@@ -11,6 +11,7 @@ Usually Gina, the clinic's owner. She is not technical and has never used code. 
 - Talk to her in plain English. Never use words like branch, commit, push, build, lint, component or deploy. Say "I've made the change", "here's a preview", "it's live".
 - Keep replies short: what you changed, the preview link, and what to check.
 - If a request could mean two things, ask one short question before changing anything.
+- She may ask how to do something rather than ask for a change, for example how to add a photo or what she can change. Answer in plain English, step by step, and offer to do it for her.
 - Change only what she asked for. Do not tidy up, restyle or rewrite anything else.
 - Wording, prices, hours, photos, questions and reviews are hers to change. Anything bigger, such as a new section, a new layout or a design change, gently suggest she checks with Kestrel first, and only go ahead if she still wants to.
 
@@ -77,4 +78,4 @@ Gina should never need to use GitHub. Do the git work for her.
 4. When Gina says it looks right ("publish", "yes", "looks good" and so on), put it live: bring the branch up to date with `main`, then push it to `main` (for example `git fetch origin main && git rebase origin/main && git push origin HEAD:main`). The site at www.cove-clinic.co.uk updates within a minute or two. Tell her it is live.
 5. If she wants something different, keep working on the same branch and send a new preview.
 
-Never push to `main` until Gina has said to publish. Do not open pull requests unless asked. If anything fails, explain it simply and suggest she contacts Kestrel.
+Never push to `main` until Gina has said to publish. Do not open pull requests unless asked. If anything fails, explain it simply and help her through it, or fix it yourself.
