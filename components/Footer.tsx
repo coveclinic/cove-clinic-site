@@ -149,7 +149,7 @@ export function Footer() {
                 <Link href={l.href} className="hover:text-paper">
                   {l.label}
                 </Link>
-                <a href={footer.credit.href} className="text-paper/72 transition-colors duration-200 hover:text-paper">
+                <a href={footer.credit.href} className="text-paper/30 transition-colors duration-200 hover:text-paper">
                   {footer.credit.label}
                 </a>
               </div>
