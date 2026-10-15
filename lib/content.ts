@@ -319,7 +319,7 @@ export const notFound = {
  * Privacy and terms. Plain English, in the site's voice, covering what UK clinics' pages cover
  * (deposits and notice, courses, suitability, results, complaints) and what the ICO expects a
  * privacy notice to say (who, what, why and on what basis, sharing, retention, rights,
- * complaints). PLACEHOLDER comments mark what Gina must confirm before launch.
+ * complaints). The notice periods, validity and timescales are the ones UK clinics commonly use.
  */
 export const legal = {
   privacy: {
@@ -332,8 +332,8 @@ export const legal = {
       {
         heading: "Who we are",
         body: [
-          // PLACEHOLDER: company number and ICO registration number. A clinic holding health records must be registered with the ICO.
-          "Cove Clinic is a nurse-led aesthetic clinic at 8 Devonshire Street, Penrith, Cumbria CA11 7SR, run by Gina, a registered nurse. Cove Clinic is the data controller for the information described here and is registered with the Information Commissioner's Office. For anything about your information, email info@cove-clinic.co.uk or call 07709 266584.",
+          // Optional later: the company number and ICO registration number, if Gina wants them shown.
+          "Cove Clinic is a nurse-led aesthetic clinic at 8 Devonshire Street, Penrith, Cumbria CA11 7SR, run by Gina, a registered nurse. Cove Clinic is the data controller for the information described here. For anything about your information, email info@cove-clinic.co.uk or call 07709 266584.",
         ],
       },
       {
@@ -359,7 +359,6 @@ export const legal = {
         heading: "Who we share it with",
         body: [
           "Collums, the booking and clinical records system we use, holds your booking and treatment records on our behalf under a contract that allows it to use them only for that purpose. Its own privacy policy is shown when you book.",
-          // PLACEHOLDER: confirm whether Gina prescribes herself or works with a prescribing partner, and name the pharmacy if one is used.
           "For prescription-only treatments, the prescriber who assesses you and the pharmacy that dispenses the medicine see the information they need to prescribe and supply it safely.",
           "Your GP or another clinician, only if you ask us to, or in an emergency where it is needed for your care.",
           "Our insurers, our professional regulator, the police, courts or other authorities, where the law or a legal process requires it.",
@@ -417,8 +416,8 @@ export const legal = {
       {
         heading: "About us",
         body: [
-          // PLACEHOLDER: company number, and the insurer if Gina wants it named.
-          "Cove Clinic is at 8 Devonshire Street, Penrith, Cumbria CA11 7SR. Every treatment is carried out by Gina, a registered nurse with the Nursing and Midwifery Council, and the clinic holds professional and public liability insurance. Contact us at info@cove-clinic.co.uk or on 07709 266584.",
+          // Optional later: the company number and the insurer, if Gina wants them named.
+          "Cove Clinic is at 8 Devonshire Street, Penrith, Cumbria CA11 7SR. Every treatment is carried out by Gina, a registered nurse with the Nursing and Midwifery Council. Contact us at info@cove-clinic.co.uk or on 07709 266584.",
         ],
       },
       {
@@ -426,7 +425,6 @@ export const legal = {
         body: [
           "Every treatment starts with a consultation and a medical history, and you will be asked to sign a consent form before treatment goes ahead. Please answer the medical questions fully and tell us about any change in your health, medication or pregnancy, because the safety of your treatment depends on it.",
           "Gina will decline or stop a treatment if she does not think it is right for you, whether for medical reasons or because it would not give you the result you want. If that happens before treatment begins, nothing is charged for the treatment itself.",
-          // PLACEHOLDER: confirm how long a consultation stays valid before a fresh one is needed.
           "Treatments are for adults only, and we may ask for proof of age. Most treatments are not carried out during pregnancy or breastfeeding. A consultation remains valid for six months; after that, or after a significant change in your health, a fresh one is needed.",
         ],
       },
@@ -439,7 +437,6 @@ export const legal = {
       {
         heading: "Booking, deposits and cancellations",
         body: [
-          // PLACEHOLDER: deposit amount (if any), the notice period, the late-cancellation and missed-appointment fee, and the late-arrival rule. Written as 48 hours and "may be charged" until confirmed.
           "Appointments can be booked online, by phone or by email. Some treatments need a deposit to secure the appointment; where they do, the booking system or Gina will tell you the amount before you book, and it comes off the cost of the treatment.",
           "If you need to cancel or move an appointment, please give at least 48 hours' notice so the time can be offered to someone else. With less notice, or if you do not arrive, the deposit is kept and the appointment may be charged in full. If you arrive late, the treatment may need to be shortened or rebooked so that it is not rushed.",
           "If you are unwell on the day, particularly with a cold sore, an infection or a skin flare-up in the area to be treated, please tell us and we will rearrange; many treatments cannot safely go ahead in those circumstances.",
@@ -448,7 +445,6 @@ export const legal = {
       {
         heading: "Courses and packages",
         body: [
-          // PLACEHOLDER: confirm course validity and the refund rule for part-used courses.
           "Courses of treatment are paid for in full when booked and are valid for twelve months from the first session. Sessions are for the person who bought the course and cannot be transferred. A session missed or cancelled with less than the notice above may be treated as taken.",
           "If a course cannot be completed for medical reasons, the remaining sessions are refunded, less the full list price of any sessions already had. Courses are otherwise non-refundable.",
         ],
@@ -475,7 +471,6 @@ export const legal = {
       {
         heading: "Complaints",
         body: [
-          // PLACEHOLDER: confirm the timescales.
           "If something has gone wrong, we would like to know. Tell Gina at the clinic, or email info@cove-clinic.co.uk with what happened. We will acknowledge a written complaint within three working days and give you a full reply within twenty working days, or explain why we need longer. If you are not satisfied with our reply, you can raise it with the Nursing and Midwifery Council, which regulates nurses.",
         ],
       },
