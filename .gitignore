@@ -39,12 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-notes/
-CLAUDE.md
-AGENTS.md
 
-# internal
+# internal, never committed
 notes/
-CLAUDE.md
-AGENTS.md
+CLAUDE.local.md
 .claude/
