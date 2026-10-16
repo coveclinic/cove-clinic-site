@@ -66,7 +66,7 @@ export const hero = {
     emphasis: "Natural",
     tail: "Aesthetics.",
   },
-  sub: "Tailored Aesthetics and Advanced Skin Treatments In Penrith. Empowering Confidence, Clear Skin and Holistic Wellbeing. Specialising In Anti-Ageing and Acne.",
+  sub: "Tailored Aesthetics and Advanced Skin Treatments in Penrith.\nEmpowering Confidence, Clear Skin and Holistic Wellbeing. Specialising in Anti-Ageing and Acne.",
   cta: {
     label: "Book a free, non-obligatory consultation",
     labelShort: "Book a free consultation",

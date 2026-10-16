@@ -33,7 +33,7 @@ export function Hero({ tone = "walnut" }: HeroProps) {
             <em className="italic">{hero.headline.emphasis}</em>{" "}
             {hero.headline.tail}
           </h1>
-          <p className={`mt-6 max-w-[48ch] text-[18px] leading-[1.55] md:mt-8 md:text-[21px] ${t.sub}`}>
+          <p className={`mt-6 max-w-[54ch] whitespace-pre-line text-[18px] leading-[1.55] md:mt-8 md:text-[21px] ${t.sub}`}>
             {hero.sub}
           </p>
           <div className="mt-8 md:mt-10">
