@@ -1,5 +1,6 @@
 import { hero } from "@/lib/content";
 import { Button } from "@/components/Button";
+import { HeroVideo } from "@/components/HeroVideo";
 
 /** Card colour. Clay is the original; umber and walnut answer the client's ask for a darker brown. */
 export type HeroTone = "clay" | "umber" | "walnut";
@@ -49,26 +50,6 @@ export function Hero({ tone = "walnut" }: HeroProps) {
         <div className="relative h-[380px] md:h-[520px] lg:h-full" />
       </div>
     </section>
-  );
-}
-
-/** Decorative looping video under the hero content. Hidden for anyone who prefers reduced motion. */
-function HeroVideo() {
-  const { wide, tall } = hero.video;
-  return (
-    <video
-      className="pointer-events-none absolute inset-0 size-full object-cover motion-reduce:hidden"
-      autoPlay
-      muted
-      loop
-      playsInline
-      preload="auto"
-      poster={tall.poster}
-      aria-hidden="true"
-    >
-      <source src={wide.src} type="video/mp4" media="(min-width: 768px)" />
-      <source src={tall.src} type="video/mp4" />
-    </video>
   );
 }
 
