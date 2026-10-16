@@ -64,7 +64,7 @@ export const hero = {
   headline: {
     lead: "Results-driven skin.",
     emphasis: "Natural",
-    tail: "aesthetics.",
+    tail: "Aesthetics.",
   },
   sub: "Tailored aesthetics, advanced skin treatments and laser hair removal in Penrith. Empowering confidence, anti-ageing and holistic wellbeing.",
   cta: {

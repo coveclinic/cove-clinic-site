@@ -28,7 +28,7 @@ export function Hero({ tone = "walnut" }: HeroProps) {
         )}
         <div className="relative z-10 flex flex-col justify-center px-7 pb-10 pt-12 md:px-10 md:pt-16 lg:pl-[88px] lg:pr-10 lg:py-0">
           <h1 className="font-display text-[44px] font-light leading-[1] tracking-[-0.01em] md:text-[72px]">
-            <LevelHyphens text={hero.headline.lead} />{" "}
+            {hero.headline.lead}{" "}
             <br className="hidden md:inline" />
             <em className="italic">{hero.headline.emphasis}</em>{" "}
             {hero.headline.tail}
@@ -73,14 +73,4 @@ function HeroMonogram() {
       }}
     />
   );
-}
-
-/** Cormorant's hyphen rises about 10 degrees; turn each one level so it reads as a flat dash. */
-function LevelHyphens({ text }: { text: string }) {
-  return text.split("-").map((part, i) => (
-    <span key={i}>
-      {i > 0 && <span className="inline-block rotate-[10deg]">-</span>}
-      {part}
-    </span>
-  ));
 }
