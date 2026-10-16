@@ -161,8 +161,8 @@ export const practitioner = {
   id: "meet-gina",
   heading: "Meet Gina",
   photo: {
-    src: "/photos/web/gina.jpg",
-    alt: "Gina, registered nurse and founder of Cove Clinic, in the clinic in Penrith",
+    src: "/photos/web/gina-consultation.jpg",
+    alt: "Gina sitting by the clinic window, talking with her hands during a consultation",
     position: "50% 30%",
   },
   intro:
