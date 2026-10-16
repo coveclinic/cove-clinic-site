@@ -77,6 +77,11 @@ export const hero = {
     ratio: 390 / 1055,
     alt: "Line drawing of a woman's face",
   },
+  /** Slow looping waves behind the walnut hero, toned to walnut. Wide for laptops, tall for phones. */
+  video: {
+    wide: { src: "/video/hero-waves-wide.mp4", poster: "/video/hero-waves-wide.jpg" },
+    tall: { src: "/video/hero-waves-tall.mp4", poster: "/video/hero-waves-tall.jpg" },
+  },
 };
 
 export const approach = {

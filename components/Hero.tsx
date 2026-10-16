@@ -20,6 +20,7 @@ export function Hero({ tone = "walnut" }: HeroProps) {
       <div
         className={`relative grid min-h-[620px] overflow-hidden rounded-card lg:h-[calc(100svh-112px)] lg:max-h-[860px] lg:grid-cols-[1.15fr_1fr] ${t.card}`}
       >
+        {tone === "walnut" && <HeroVideo />}
         <div className="relative z-10 flex flex-col justify-center px-7 pb-10 pt-12 md:px-10 md:pt-16 lg:pl-[88px] lg:pr-10 lg:py-0">
           <h1 className="font-display text-[44px] font-light leading-[1] tracking-[-0.01em] md:text-[72px]">
             {hero.headline.lead}{" "}
@@ -50,5 +51,25 @@ export function Hero({ tone = "walnut" }: HeroProps) {
         </div>
       </div>
     </section>
+  );
+}
+
+/** Decorative looping video under the hero content. Hidden for anyone who prefers reduced motion. */
+function HeroVideo() {
+  const { wide, tall } = hero.video;
+  return (
+    <video
+      className="pointer-events-none absolute inset-0 size-full object-cover motion-reduce:hidden"
+      autoPlay
+      muted
+      loop
+      playsInline
+      preload="auto"
+      poster={tall.poster}
+      aria-hidden="true"
+    >
+      <source src={wide.src} type="video/mp4" media="(min-width: 768px)" />
+      <source src={tall.src} type="video/mp4" />
+    </video>
   );
 }
