@@ -11,7 +11,7 @@ export function Letter() {
       <div className="mx-auto max-w-[1392px] rounded-card bg-clay px-7 py-14 text-ink md:px-16 md:py-16 lg:px-[88px] lg:py-20">
         <h2
           id={`${l.id}-heading`}
-          className="font-display text-[34px] font-light leading-[1.05] tracking-[-0.01em] md:text-[48px]"
+          className="font-display text-walnut text-[34px] font-light leading-[1.05] tracking-[-0.01em] md:text-[48px]"
         >
           {l.heading}
         </h2>

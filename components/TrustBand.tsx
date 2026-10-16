@@ -16,10 +16,10 @@ export function TrustBand() {
           className="absolute -right-10 -top-10 size-40 md:-right-16 md:-top-16 md:size-64 lg:-right-12 lg:top-1/2 lg:size-[420px] lg:-translate-y-1/2"
         />
         <div className="relative lg:max-w-[62%]">
-          <p className="text-[15px] text-ink/72">{band.eyebrow}</p>
+          <p className="text-[15px] text-walnut">{band.eyebrow}</p>
           <h2
             id={`${band.id}-heading`}
-            className="mt-5 max-w-[20ch] font-display text-[34px] font-light leading-[1.05] tracking-[-0.01em] text-balance md:text-[56px]"
+            className="mt-5 max-w-[20ch] font-display text-walnut text-[34px] font-light leading-[1.05] tracking-[-0.01em] text-balance md:text-[56px]"
           >
             {band.statement}
           </h2>

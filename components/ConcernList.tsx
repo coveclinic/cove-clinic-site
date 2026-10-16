@@ -68,7 +68,7 @@ export function ConcernList({
                       {i + 1}
                     </span>
                     <span
-                      className={`font-display text-[40px] font-light leading-[1.05] transition-colors duration-200 md:text-[46px] ${isActive ? "text-ink" : "text-ink/35"}`}
+                      className={`font-display text-[40px] font-light leading-[1.05] transition-colors duration-200 md:text-[46px] ${isActive ? "text-walnut" : "text-walnut/35"}`}
                     >
                       {t.name}
                     </span>

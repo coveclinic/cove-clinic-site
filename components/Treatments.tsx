@@ -33,7 +33,7 @@ function Intro() {
     <div>
       <h2
         id={`${treatments.id}-heading`}
-        className="font-display text-[48px] font-light leading-[0.98] tracking-[-0.01em] text-ink md:text-[72px]"
+        className="font-display text-[48px] font-light leading-[0.98] tracking-[-0.01em] text-walnut md:text-[72px]"
       >
         {treatments.heading}
       </h2>
@@ -66,7 +66,7 @@ function Tiles() {
               <Arrow />
             </div>
             <div className="p-6">
-              <h3 className="flex items-start gap-2 font-display text-[28px] font-normal leading-tight">
+              <h3 className="flex items-start gap-2 font-display text-walnut text-[28px] font-normal leading-tight">
                 <span aria-hidden="true" className="mt-1 font-sans text-[13px] text-walnut">
                   {i + 1}
                 </span>

@@ -15,7 +15,7 @@ export function Approach() {
         <div className="lg:sticky lg:top-[112px] lg:col-span-5 lg:self-start">
           <h2
             id={`${approach.id}-heading`}
-            className="font-display text-[48px] font-light leading-[0.98] tracking-[-0.01em] text-ink md:text-[72px]"
+            className="font-display text-[48px] font-light leading-[0.98] tracking-[-0.01em] text-walnut md:text-[72px]"
           >
             {approach.heading}
           </h2>

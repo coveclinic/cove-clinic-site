@@ -13,7 +13,7 @@ export function Questions() {
         <div className="lg:sticky lg:top-[112px] lg:col-span-5 lg:self-start xl:col-span-4">
           <h2
             id={`${questions.id}-heading`}
-            className="font-display text-[48px] font-light leading-[0.98] tracking-[-0.01em] text-ink md:text-[72px]"
+            className="font-display text-[48px] font-light leading-[0.98] tracking-[-0.01em] text-walnut md:text-[72px]"
           >
             {questions.heading}
           </h2>
@@ -25,7 +25,7 @@ export function Questions() {
           <Accordion
             items={questions.items.map((q) => ({ title: q.q, body: q.a }))}
             defaultOpen={null}
-            titleClassName="font-display text-[24px] font-normal leading-[1.15] md:text-[28px]"
+            titleClassName="font-display text-walnut text-[24px] font-normal leading-[1.15] md:text-[28px]"
           />
         </div>
       </div>
