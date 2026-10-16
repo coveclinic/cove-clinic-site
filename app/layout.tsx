@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
-import { Cormorant_SC } from "next/font/google";
+import { Cormorant } from "next/font/google";
 import { site } from "@/lib/content";
 import "./globals.css";
 
 /** One face for everything: headings and body text alike. */
-const cormorant = Cormorant_SC({
+const cormorant = Cormorant({
   variable: "--font-cormorant",
   subsets: ["latin"],
   weight: ["300", "400", "500", "600"],
+  style: ["normal", "italic"],
   display: "swap",
 });
 
