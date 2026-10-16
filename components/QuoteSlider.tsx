@@ -59,14 +59,14 @@ export function QuoteSlider({
   return (
     <div>
       <figure key={index} className="relative animate-[quote-in_500ms_ease-out]" aria-live="polite">
-        {/* The opening mark hangs in the gutter beside the first line, as in print. */}
+        {/* On a phone the opening mark sits above the quote; from tablet up it hangs in the gutter beside the first line, as in print. */}
         <span
           aria-hidden="true"
-          className="pointer-events-none absolute -left-7 top-[-0.12em] font-display text-[72px] font-light leading-none text-walnut md:-left-16 md:top-[-0.14em] md:text-[150px]"
+          className="pointer-events-none block h-[40px] font-display text-[72px] font-light leading-none text-walnut md:absolute md:-left-16 md:top-[-0.14em] md:h-auto md:text-[150px]"
         >
           “
         </span>
-        <blockquote className="relative max-w-[50ch] font-display text-[30px] font-light leading-[1.2] tracking-[-0.01em] text-ink md:text-[44px]">
+        <blockquote className="relative max-w-[50ch] font-display text-[26px] font-light leading-[1.25] tracking-[-0.01em] text-ink md:text-[44px]">
           {current.quote}
         </blockquote>
         <figcaption className="mt-8 flex items-center gap-4 text-[15px] leading-[1.4]">
