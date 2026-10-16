@@ -112,9 +112,9 @@ export const treatments = {
       line: "Dermal fillers, lip enhancement and anti-wrinkle injections for harmony, not change.",
       href: "/treatments/dermal-fillers",
       image: {
-        src: "/photos/web/treatment-0926.jpg",
-        alt: "Gina carrying out an injectable treatment at Cove Clinic in Penrith",
-        position: "50% 30%",
+        src: "/photos/web/facial-hands.jpg",
+        alt: "Gina's hands resting at a client's temples during a facial at Cove Clinic",
+        position: "50% 50%",
       },
     },
     {
@@ -122,9 +122,9 @@ export const treatments = {
       line: "Facials, chemical peels and microneedling for acne, texture, pigmentation and glow.",
       href: "/treatments/facials",
       image: {
-        src: "/photos/web/treatment-facial.jpg",
-        alt: "Gina giving a facial at Cove Clinic, hands cradling the client's face",
-        position: "50% 55%",
+        src: "/photos/web/facial-hands.jpg",
+        alt: "Gina's hands resting at a client's temples during a facial at Cove Clinic",
+        position: "50% 50%",
       },
     },
     {
@@ -132,9 +132,9 @@ export const treatments = {
       line: "Skin boosters, polynucleotides and PRP to support firmer, healthier skin over time.",
       href: "/treatments/skin-boosters",
       image: {
-        src: "/photos/web/treatment-0907.jpg",
-        alt: "Gina performing a skin treatment with a handheld device",
-        position: "50% 35%",
+        src: "/photos/web/facial-hands.jpg",
+        alt: "Gina's hands resting at a client's temples during a facial at Cove Clinic",
+        position: "50% 50%",
       },
     },
     {
@@ -142,9 +142,9 @@ export const treatments = {
       line: "PRP therapy to encourage regrowth and strengthen thinning hair.",
       href: "/treatments/prp",
       image: {
-        src: "/photos/web/treatment-0905.jpg",
-        alt: "Gina working at a client's hairline during a treatment at Cove Clinic",
-        position: "50% 62%",
+        src: "/photos/web/facial-hands.jpg",
+        alt: "Gina's hands resting at a client's temples during a facial at Cove Clinic",
+        position: "50% 50%",
       },
     },
   ],
