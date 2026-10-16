@@ -53,7 +53,7 @@ export function ValueDeck({ items }: { items: Value[] }) {
             className="absolute -left-8 -top-8 size-28 md:-left-14 md:top-1/2 md:size-52 md:-translate-y-1/2 lg:-left-10 lg:size-40 xl:-left-14 xl:size-52"
           />
           <div className="min-w-0">
-            <h3 className="font-display text-walnut text-[30px] font-normal leading-[1.05] text-balance md:text-[38px] lg:text-[32px] xl:text-[38px]">
+            <h3 className="font-display text-cocoa text-[30px] font-normal leading-[1.05] text-balance md:text-[38px] lg:text-[32px] xl:text-[38px]">
               {v.title}
             </h3>
             <p

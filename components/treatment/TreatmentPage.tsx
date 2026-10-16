@@ -56,7 +56,7 @@ export function TreatmentPage({ t }: { t: TreatmentPageContent }) {
               </p>
               <h1
                 id={`${t.slug}-heading`}
-                className="mt-5 font-display text-[44px] font-light leading-[1] tracking-[-0.01em] text-walnut md:text-[64px]"
+                className="mt-5 font-display text-[44px] font-light leading-[1] tracking-[-0.01em] text-cocoa md:text-[64px]"
               >
                 {t.heading}
               </h1>
@@ -91,7 +91,7 @@ export function TreatmentPage({ t }: { t: TreatmentPageContent }) {
                 <div className="lg:col-span-5 xl:col-span-4">
                   <h2
                     id={`${t.slug}-menu-heading`}
-                    className="font-display text-[36px] font-light leading-[1.02] tracking-[-0.01em] text-walnut md:text-[44px]"
+                    className="font-display text-[36px] font-light leading-[1.02] tracking-[-0.01em] text-cocoa md:text-[44px]"
                   >
                     {t.menu.heading}
                   </h2>
@@ -107,7 +107,7 @@ export function TreatmentPage({ t }: { t: TreatmentPageContent }) {
                     className="border-b border-ink/15 py-7 md:py-8 md:odd:border-r md:odd:pr-10 md:even:pl-10 md:[&:last-child:nth-child(odd)]:border-r-0 lg:odd:pr-14 lg:even:pl-14"
                   >
                     <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-                      <h3 className="font-display text-[24px] font-normal leading-[1.15] text-walnut md:text-[26px]">
+                      <h3 className="font-display text-[24px] font-normal leading-[1.15] text-cocoa md:text-[26px]">
                         {item.name}
                       </h3>
                       <p className="text-[15px] text-stone">{item.meta}</p>
@@ -128,7 +128,7 @@ export function TreatmentPage({ t }: { t: TreatmentPageContent }) {
               className="lg:sticky lg:top-[112px] lg:col-span-5 lg:self-start xl:col-span-4"
               aria-label={treatmentLabels.atAGlance}
             >
-              <h2 className="font-display text-[26px] font-normal leading-[1.1] text-walnut">
+              <h2 className="font-display text-[26px] font-normal leading-[1.1] text-cocoa">
                 {treatmentLabels.atAGlance}
               </h2>
               <dl className="mt-5 border-t border-ink/15 text-[16px] md:text-[17px]">
@@ -149,7 +149,7 @@ export function TreatmentPage({ t }: { t: TreatmentPageContent }) {
                 >
                   <h2
                     id={`${t.slug}-s${i}`}
-                    className="font-display text-[26px] font-normal leading-[1.1] text-walnut md:text-[30px]"
+                    className="font-display text-[26px] font-normal leading-[1.1] text-cocoa md:text-[30px]"
                   >
                     {s.title}
                   </h2>
@@ -170,7 +170,7 @@ export function TreatmentPage({ t }: { t: TreatmentPageContent }) {
             <div className="lg:sticky lg:top-[112px] lg:col-span-5 lg:self-start xl:col-span-4">
               <h2
                 id={`${t.slug}-questions-heading`}
-                className="font-display text-[36px] font-light leading-[1.02] tracking-[-0.01em] text-walnut md:text-[44px]"
+                className="font-display text-[36px] font-light leading-[1.02] tracking-[-0.01em] text-cocoa md:text-[44px]"
               >
                 {treatmentLabels.questions}
               </h2>
@@ -191,7 +191,7 @@ export function TreatmentPage({ t }: { t: TreatmentPageContent }) {
               <Accordion
                 items={t.questions.map((q) => ({ title: q.q, body: q.a }))}
                 defaultOpen={null}
-                titleClassName="font-display text-walnut text-[22px] font-normal leading-[1.2] md:text-[24px]"
+                titleClassName="font-display text-cocoa text-[22px] font-normal leading-[1.2] md:text-[24px]"
               />
             </div>
           </div>
@@ -203,7 +203,7 @@ export function TreatmentPage({ t }: { t: TreatmentPageContent }) {
             <div className="md:col-span-7">
               <h2
                 id={`${t.slug}-closing-heading`}
-                className="font-display text-walnut text-[34px] font-light leading-[1.05] tracking-[-0.01em] md:text-[44px]"
+                className="font-display text-cocoa text-[34px] font-light leading-[1.05] tracking-[-0.01em] md:text-[44px]"
               >
                 {t.closing.heading}
               </h2>

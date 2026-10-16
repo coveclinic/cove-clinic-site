@@ -43,7 +43,7 @@ export function FindUs() {
         <div className="lg:col-span-5">
           <h2
             id={`${findUs.id}-heading`}
-            className="font-display text-walnut text-[44px] font-light leading-[1] tracking-[-0.01em] md:text-[56px]"
+            className="font-display text-cocoa text-[44px] font-light leading-[1] tracking-[-0.01em] md:text-[56px]"
           >
             {findUs.heading}
           </h2>

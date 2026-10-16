@@ -21,7 +21,7 @@ export function MeetGina() {
         <div className="text-ink lg:col-span-6 lg:col-start-7 lg:self-center">
           <h2
             id={`${practitioner.id}-heading`}
-            className="font-display text-walnut text-[48px] font-light leading-[0.98] tracking-[-0.01em] md:text-[72px]"
+            className="font-display text-cocoa text-[48px] font-light leading-[0.98] tracking-[-0.01em] md:text-[72px]"
           >
             {practitioner.heading}
           </h2>

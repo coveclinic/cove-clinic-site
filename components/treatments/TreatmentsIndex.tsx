@@ -26,7 +26,7 @@ export function TreatmentsIndex({ items }: Props) {
         <div className="lg:sticky lg:top-[112px] lg:col-span-5 lg:self-start xl:col-span-4">
           <h1
             id="treatments-heading"
-            className="font-display text-[44px] font-light leading-[1] tracking-[-0.01em] text-walnut md:text-[64px]"
+            className="font-display text-[44px] font-light leading-[1] tracking-[-0.01em] text-cocoa md:text-[64px]"
           >
             {treatmentsIndex.heading}
           </h1>

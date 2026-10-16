@@ -13,7 +13,7 @@ export function Steps() {
         <div className="lg:sticky lg:top-[112px] lg:col-span-5 lg:self-start xl:col-span-4">
           <h2
             id={`${s.id}-heading`}
-            className="font-display text-[48px] font-light leading-[0.98] tracking-[-0.01em] text-walnut md:text-[72px]"
+            className="font-display text-[48px] font-light leading-[0.98] tracking-[-0.01em] text-cocoa md:text-[72px]"
           >
             {s.heading}
           </h2>
@@ -31,7 +31,7 @@ export function Steps() {
                 {i + 1}
               </span>
               <div className="min-w-0 flex-1">
-                <h3 className="font-display text-walnut text-[28px] font-normal leading-[1.1] md:text-[34px]">
+                <h3 className="font-display text-cocoa text-[28px] font-normal leading-[1.1] md:text-[34px]">
                   {step.title}
                 </h3>
                 <p className="mt-3 text-[16px] leading-[1.6] text-ink/72 md:text-[17px]">

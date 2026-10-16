@@ -17,7 +17,7 @@ export default function NotFound() {
           <div className="max-w-[40ch]">
             <h1
               id="not-found-heading"
-              className="font-display text-[44px] font-light leading-[1] tracking-[-0.01em] text-walnut md:text-[64px]"
+              className="font-display text-[44px] font-light leading-[1] tracking-[-0.01em] text-cocoa md:text-[64px]"
             >
               {notFound.heading}
             </h1>

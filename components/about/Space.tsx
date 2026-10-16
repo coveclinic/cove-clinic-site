@@ -26,7 +26,7 @@ export function Space() {
         <div className="lg:col-span-6 lg:col-start-7">
           <h2
             id={`${s.id}-heading`}
-            className="font-display text-[40px] font-light leading-[1.02] tracking-[-0.01em] text-walnut md:text-[56px]"
+            className="font-display text-[40px] font-light leading-[1.02] tracking-[-0.01em] text-cocoa md:text-[56px]"
           >
             {s.heading}
           </h2>

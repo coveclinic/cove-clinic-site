@@ -7,7 +7,7 @@ export function Reviews() {
     <Section id={reviews.id} className="md:pt-8">
       <h2
         id={`${reviews.id}-heading`}
-        className="font-display text-[48px] font-light leading-[0.98] tracking-[-0.01em] text-walnut md:text-[72px]"
+        className="font-display text-[48px] font-light leading-[0.98] tracking-[-0.01em] text-cocoa md:text-[72px]"
       >
         {reviews.heading}
       </h2>

@@ -12,7 +12,7 @@ export function AboutMasthead() {
         <div className="lg:col-span-6">
           <h1
             id={`${m.id}-heading`}
-            className="font-display text-[48px] font-light leading-[0.98] tracking-[-0.01em] text-walnut md:text-[72px]"
+            className="font-display text-[48px] font-light leading-[0.98] tracking-[-0.01em] text-cocoa md:text-[72px]"
           >
             {m.heading}
           </h1>

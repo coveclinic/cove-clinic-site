@@ -11,7 +11,7 @@ export function Training() {
         <div className="lg:sticky lg:top-[112px] lg:col-span-5 lg:self-start">
           <h2
             id={`${t.id}-heading`}
-            className="font-display text-[48px] font-light leading-[0.98] tracking-[-0.01em] text-walnut md:text-[72px]"
+            className="font-display text-[48px] font-light leading-[0.98] tracking-[-0.01em] text-cocoa md:text-[72px]"
           >
             {t.heading}
           </h2>

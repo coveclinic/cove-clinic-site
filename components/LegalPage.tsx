@@ -15,7 +15,7 @@ export function LegalPage({ doc, id }: { doc: Doc; id: string }) {
           <div className="max-w-[66ch]">
             <h1
               id={`${id}-heading`}
-              className="font-display text-[44px] font-light leading-[1] tracking-[-0.01em] text-walnut md:text-[64px]"
+              className="font-display text-[44px] font-light leading-[1] tracking-[-0.01em] text-cocoa md:text-[64px]"
             >
               {doc.heading}
             </h1>
@@ -23,7 +23,7 @@ export function LegalPage({ doc, id }: { doc: Doc; id: string }) {
             <p className="mt-6 text-[18px] leading-[1.55] text-ink/72 md:text-[20px]">{doc.intro}</p>
             {doc.sections.map((s) => (
               <section key={s.heading} aria-label={s.heading} className="mt-10 md:mt-12">
-                <h2 className="font-display text-[26px] font-normal leading-[1.1] text-walnut md:text-[30px]">{s.heading}</h2>
+                <h2 className="font-display text-[26px] font-normal leading-[1.1] text-cocoa md:text-[30px]">{s.heading}</h2>
                 {s.body.map((p) => (
                   <p key={p.slice(0, 40)} className="mt-3 text-[17px] leading-[1.65] text-ink/72 md:text-[18px]">
                     {p}
