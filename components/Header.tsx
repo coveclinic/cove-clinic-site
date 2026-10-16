@@ -70,7 +70,7 @@ export function Header() {
         </Link>
 
         <nav className="absolute left-1/2 hidden -translate-x-1/2 lg:block" aria-label="Primary">
-          <ul className="flex items-center gap-9 text-[15px] text-ink">
+          <ul className="flex items-center gap-9 text-[18px] text-ink">
             {nav.links.map((l) => {
               const current = isCurrent(l.href);
               if (l.href !== "/treatments") {
@@ -130,7 +130,7 @@ export function Header() {
                               href={t.href}
                               onClick={() => setMenu(false)}
                               aria-current={pathname === t.href ? "page" : undefined}
-                              className={`block rounded-full px-3 py-2 text-[15px] transition-colors duration-200 hover:bg-clay ${pathname === t.href ? "text-walnut" : ""}`}
+                              className={`block rounded-full px-3 py-2 text-[18px] transition-colors duration-200 hover:bg-clay ${pathname === t.href ? "text-walnut" : ""}`}
                             >
                               {t.label}
                             </Link>
@@ -141,7 +141,7 @@ export function Header() {
                         <Link
                           href="/treatments"
                           onClick={() => setMenu(false)}
-                          className="px-3 text-[14px] text-ink/72 transition-colors duration-200 hover:text-walnut"
+                          className="px-3 text-[16px] text-ink/72 transition-colors duration-200 hover:text-walnut"
                         >
                           {nav.allTreatments}
                         </Link>
@@ -174,7 +174,7 @@ export function Header() {
 
       {open && (
         <div id="mobile-menu" className="border-t border-ink/10 px-6 pb-8 pt-4 lg:hidden">
-          <ul className="flex flex-col gap-4 text-[18px]">
+          <ul className="flex flex-col gap-4 text-[22px]">
             {nav.links.map((l) => (
               <li key={l.href}>
                 <Link
@@ -186,7 +186,7 @@ export function Header() {
                   {l.label}
                 </Link>
                 {l.href === "/treatments" ? (
-                  <ul className="mt-3 flex flex-col gap-2.5 border-l border-ink/15 pl-4 text-[16px] text-ink/72">
+                  <ul className="mt-3 flex flex-col gap-2.5 border-l border-ink/15 pl-4 text-[19px] text-ink/72">
                     {liveTreatments.map((t) => (
                       <li key={t.href}>
                         <Link
