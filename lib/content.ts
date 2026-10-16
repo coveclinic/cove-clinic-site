@@ -66,7 +66,7 @@ export const hero = {
     emphasis: "Natural",
     tail: "aesthetics.",
   },
-  sub: "Tailored aesthetics, advanced skin treatments and laser hair removal in Penrith. Empowering confidence, anti-ageing and holistic wellbeing.",
+  sub: "A quiet space in Penrith to look after your skin, at your own pace. Gentle aesthetics, skin treatments and laser hair removal, planned around you and how you want to feel.",
   cta: {
     label: "Book a free, non-obligatory consultation",
     labelShort: "Book a free consultation",
@@ -83,19 +83,19 @@ export const approach = {
   id: "our-approach",
   heading: "Our approach",
   statement:
-    "More than aesthetic treatments. A calm, welcoming space to talk openly about your skin with an experienced medical professional, and a plan made for you.",
+    "More than treatments. A calm, welcoming space to slow down and talk openly about your skin with Gina, a nurse who takes the time to listen.",
   values: [
     {
       title: "Natural results",
-      body: "Enhancement that looks like you on a good day, never overdone. We work with your features, not against them.",
+      body: "Results that look like you on a good day. Gentle, never overdone, and always in harmony with your own features.",
     },
     {
-      title: "Honest guidance",
-      body: "If a treatment is not right for you, Gina will say so. Advice first, treatment second, and no pressure either way.",
+      title: "Honest, gentle guidance",
+      body: "If a treatment isn't right for you, Gina will tell you. Advice always comes first, and there is never any pressure.",
     },
     {
-      title: "Completely tailored to you",
-      body: "No set menus. Every plan starts with a conversation about your skin, your goals and your life, and is built from there.",
+      title: "Care that's yours",
+      body: "No set menus. Every plan begins with a conversation about your skin, your goals and how you want to feel, and grows from there.",
     },
   ],
   cta: { label: "Meet your practitioner", href: "/about-us" },
@@ -103,13 +103,13 @@ export const approach = {
 
 export const treatments = {
   id: "treatments",
-  heading: "Treatment focus",
-  intro: "Medical-grade treatments, planned around the concern that brought you in.",
+  heading: "Ways we can help",
+  intro: "Thoughtful treatments, planned gently around whatever brought you in.",
   cta: { label: "See all treatments", href: "/treatments" },
   items: [
     {
       name: "Facial balancing",
-      line: "Dermal fillers, lip enhancement and anti-wrinkle injections for harmony, not change.",
+      line: "Subtle dermal fillers, lip enhancement and anti-wrinkle injections, for harmony rather than change.",
       href: "/treatments/dermal-fillers",
       image: {
         src: "/photos/web/treatment-0926.jpg",
@@ -118,8 +118,8 @@ export const treatments = {
       },
     },
     {
-      name: "Skin concerns",
-      line: "Facials, chemical peels and microneedling for acne, texture, pigmentation and glow.",
+      name: "Skin health",
+      line: "Facials, chemical peels and microneedling to calm, clear and brighten, whether it's acne, texture or pigmentation.",
       href: "/treatments/facials",
       image: {
         src: "/photos/web/treatment-facial.jpg",
@@ -128,8 +128,8 @@ export const treatments = {
       },
     },
     {
-      name: "Anti-ageing",
-      line: "Skin boosters, polynucleotides and PRP to support firmer, healthier skin over time.",
+      name: "Ageing well",
+      line: "Skin boosters, polynucleotides and PRP to support firmer, healthier skin, gently, over time.",
       href: "/treatments/skin-boosters",
       image: {
         src: "/photos/web/treatment-0907.jpg",
@@ -138,8 +138,8 @@ export const treatments = {
       },
     },
     {
-      name: "Hair loss",
-      line: "PRP therapy to encourage regrowth and strengthen thinning hair.",
+      name: "Hair health",
+      line: "PRP to nourish the scalp and support thinning hair.",
       href: "/treatments/prp",
       image: {
         src: "/photos/web/treatment-0905.jpg",
@@ -154,7 +154,7 @@ export const band = {
   id: "nurse-led",
   eyebrow: "Nurse-led, in Penrith",
   statement: "The kind of results people notice, without ever knowing why.",
-  body: "Nothing overfilled, nothing you didn't ask for. Every treatment is carried out by Gina, a registered nurse, and planned with you before anything goes ahead.",
+  body: "Nothing overdone, nothing you didn't ask for. Every treatment is given by Gina, a registered nurse, and planned together with you, at a pace that feels right.",
 };
 
 export const practitioner = {
@@ -166,7 +166,7 @@ export const practitioner = {
     position: "50% 30%",
   },
   intro:
-    "Gina is a fully qualified, experienced registered nurse and aesthetic practitioner, and the founder of Cove Clinic.",
+    "Gina is a registered nurse and aesthetic practitioner, and the founder of Cove Clinic. She believes good skin starts with feeling looked after.",
   credentials: [
     "First-class honours degree in Nursing",
     "Registered Nurse",
@@ -174,7 +174,7 @@ export const practitioner = {
     "Trained in microneedling, PRP, chemical peels and IV therapy",
   ],
   quote:
-    "Natural-looking results, healthy skin, and treatments tailored to your individual goals.",
+    "Healthy skin, natural results, and the time to feel like yourself again.",
   cta: { label: "About Gina", href: "/about-us" },
 };
 
@@ -184,7 +184,7 @@ export const practitioner = {
  */
 export const reviews = {
   id: "reviews",
-  heading: "What clients say",
+  heading: "Kind words",
   source: "Google review",
   labels: { previous: "Previous review", next: "Next review", of: "of" },
   items: [
@@ -216,12 +216,12 @@ export const reviews = {
  */
 export const questions = {
   id: "questions",
-  heading: "Questions, answered",
-  intro: "The things people ask before a first visit, answered honestly.",
+  heading: "Your questions",
+  intro: "The things people often wonder before a first visit, answered honestly.",
   items: [
     {
       q: "Will my results look natural?",
-      a: "That is the whole point. Gina works with your features rather than against them, so results are subtle, balanced and still look like you. If you want more, we build up gradually over time, never all at once.",
+      a: "That is at the heart of everything Gina does. She works with your features rather than against them, so results are subtle, balanced and still look like you. If you want more, we build up gradually over time, never all at once.",
     },
     {
       q: "What happens at a free consultation?",
@@ -229,7 +229,7 @@ export const questions = {
     },
     {
       q: "Is it safe, and who carries out the treatments?",
-      a: "Every treatment at Cove is carried out by Gina, a registered nurse with advanced aesthetics training, using medical-grade products in a clinical setting. Nothing goes ahead without a full consultation and medical history, and we do not treat anyone under 18.",
+      a: "Every treatment at Cove is carried out by Gina, a registered nurse with advanced aesthetics training, using trusted, medical-grade products in a calm, clean treatment room. Nothing goes ahead without a full consultation and medical history, and we do not treat anyone under 18.",
     },
     {
       q: "Does it hurt, and is there any downtime?",
@@ -255,7 +255,7 @@ export const questions = {
 };
 
 export const questionBar = {
-  text: "Unsure what treatment is right for you?",
+  text: "Not sure where to start?",
   cta: { label: "Book a free consultation", href: "https://coveclinic.collums.co.uk/step/05f5e1010000000000000000/67c74aa250d51700254e7653" },
 };
 
@@ -537,27 +537,27 @@ export const about = {
   },
   training: {
     id: "training",
-    heading: "Training and qualifications",
-    intro: "A clinical foundation first, then specialist aesthetics training on top of it.",
+    heading: "Gina's training",
+    intro: "Years of nursing first, then specialist aesthetics training, so you are in safe, caring hands.",
     items: [
       {
         title: "First-class nursing degree",
-        body: "A BSc (Hons) in Nursing, first class. It is the foundation behind every treatment: a deep understanding of anatomy, precision, and a focus on your safety and wellbeing.",
+        body: "A BSc (Hons) in Nursing, first class. It sits behind every treatment: a deep understanding of the face, a gentle, careful hand, and your wellbeing at the centre.",
       },
       {
         title: "Advanced injectables training",
-        body: "Foundation and advanced training in anti-wrinkle injections and dermal fillers with Acquisition Aesthetics, one of the UK's most respected academies. Rigorous, hands-on courses led by medical experts, covering facial anatomy and complication management.",
+        body: "Foundation and advanced training in anti-wrinkle injections and dermal fillers with Acquisition Aesthetics, one of the UK's most respected academies. Hands-on courses led by medical experts, so every treatment is planned with care and safety in mind.",
       },
       {
         title: "Skin and wellness treatments",
-        body: "Trained in microneedling, PRP, chemical peels and IV therapy, so care can be holistic. It is not just about injectables; it is about your skin's health and your long-term goals.",
+        body: "Trained in microneedling, PRP, chemical peels and IV therapy, so your care can be holistic. It isn't only about injectables. It's about your skin's health, how you feel, and your long-term goals.",
       },
     ],
   },
   steps: {
     id: "how-a-visit-works",
     heading: "How a visit works",
-    intro: "Four steps, and no pressure at any of them.",
+    intro: "Four gentle steps, at your own pace.",
     items: [
       {
         title: "A free consultation",
@@ -569,7 +569,7 @@ export const about = {
       },
       {
         title: "Treatment with Gina",
-        body: "Every treatment is carried out by Gina herself, in the clinic on Devonshire Street, using medical-grade products.",
+        body: "Every treatment is given by Gina herself, in the calm of the clinic on Devonshire Street.",
       },
       {
         title: "Aftercare and follow-up",
