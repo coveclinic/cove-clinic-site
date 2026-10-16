@@ -77,10 +77,10 @@ export const hero = {
     ratio: 390 / 1055,
     alt: "Line drawing of a woman's face",
   },
-  /** Slow looping desert flyover behind the walnut hero, toned to walnut. Wide for laptops, tall for phones. */
+  /** Looping skincare video behind the walnut hero, toned to walnut. Wide for laptops, tall for phones. */
   video: {
-    wide: { src: "/video/hero-desert-wide.mp4", poster: "/video/hero-desert-wide.jpg" },
-    tall: { src: "/video/hero-desert-tall.mp4", poster: "/video/hero-desert-tall.jpg" },
+    wide: { src: "/video/hero-face-wide.mp4", poster: "/video/hero-face-wide.jpg" },
+    tall: { src: "/video/hero-face-tall.mp4", poster: "/video/hero-face-tall.jpg" },
   },
 };
 
