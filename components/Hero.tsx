@@ -19,7 +19,12 @@ export function Hero({ tone = "walnut" }: HeroProps) {
       <div
         className={`relative grid min-h-[620px] overflow-hidden rounded-card lg:h-[calc(100svh-112px)] lg:max-h-[860px] lg:grid-cols-[1.15fr_1fr] ${t.card}`}
       >
-        {tone === "walnut" && <HeroVideo />}
+        {tone === "walnut" && (
+          <>
+            <HeroVideo />
+            <HeroMonogram />
+          </>
+        )}
         <div className="relative z-10 flex flex-col justify-center px-7 pb-10 pt-12 md:px-10 md:pt-16 lg:pl-[88px] lg:pr-10 lg:py-0">
           <h1 className="font-display text-[44px] font-light leading-[1] tracking-[-0.01em] md:text-[72px]">
             {hero.headline.lead}{" "}
@@ -64,5 +69,27 @@ function HeroVideo() {
       <source src={wide.src} type="video/mp4" media="(min-width: 768px)" />
       <source src={tall.src} type="video/mp4" />
     </video>
+  );
+}
+
+/**
+ * The CC monogram set very large and faint over the video, running off the
+ * card's top and bottom on a laptop and off the bottom corner on a phone.
+ */
+function HeroMonogram() {
+  return (
+    <span
+      aria-hidden="true"
+      className="pointer-events-none absolute -bottom-[14%] -right-[34%] h-[62%] bg-paper/16 md:-right-[12%] lg:-top-[21%] lg:bottom-auto lg:left-[56%] lg:right-auto lg:h-[124%]"
+      style={{
+        aspectRatio: "273.25 / 326.1",
+        maskImage: "url(/brand/monogram-tall.svg)",
+        maskRepeat: "no-repeat",
+        maskSize: "contain",
+        WebkitMaskImage: "url(/brand/monogram-tall.svg)",
+        WebkitMaskRepeat: "no-repeat",
+        WebkitMaskSize: "contain",
+      }}
+    />
   );
 }
