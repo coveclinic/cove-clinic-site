@@ -12,6 +12,7 @@ export function TrustBand() {
       <div className="relative mx-auto max-w-[1392px] overflow-hidden rounded-card bg-clay px-7 pb-16 pt-28 text-ink md:px-16 md:pb-24 md:pt-36 lg:px-[88px] lg:py-28">
         <DrawingMark
           tone="walnut"
+          markClassName="-translate-x-[10%] translate-y-[10%] lg:translate-x-0 lg:translate-y-0"
           className="absolute -right-10 -top-10 size-40 md:-right-16 md:-top-16 md:size-64 lg:-right-12 lg:top-1/2 lg:size-[420px] lg:-translate-y-1/2"
         />
         <div className="relative lg:max-w-[62%]">

@@ -49,6 +49,7 @@ export function ValueDeck({ items }: { items: Value[] }) {
               the top-left corner on a phone, the left edge from md. */}
           <DrawingMark
             tone="walnut"
+            markClassName="translate-x-[16%] translate-y-[8%] md:translate-y-0"
             className="absolute -left-8 -top-8 size-28 md:-left-14 md:top-1/2 md:size-52 md:-translate-y-1/2 lg:-left-10 lg:size-40 xl:-left-14 xl:size-52"
           />
           <div className="min-w-0">
