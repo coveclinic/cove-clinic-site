@@ -20,13 +20,14 @@ export function DrawingMark({
       className={`grid shrink-0 place-items-center overflow-hidden rounded-full ${disc} ${className}`}
     >
       <span
-        className={`block aspect-square h-[46%] ${line} ${markClassName}`}
+        className={`block h-[50%] ${line} ${markClassName}`}
         style={{
-          maskImage: "url(/brand/monogram.svg)",
+          aspectRatio: "273.25 / 326.1",
+          maskImage: "url(/brand/monogram-tall.svg)",
           maskRepeat: "no-repeat",
           maskSize: "contain",
           maskPosition: "center",
-          WebkitMaskImage: "url(/brand/monogram.svg)",
+          WebkitMaskImage: "url(/brand/monogram-tall.svg)",
           WebkitMaskRepeat: "no-repeat",
           WebkitMaskSize: "contain",
           WebkitMaskPosition: "center",
