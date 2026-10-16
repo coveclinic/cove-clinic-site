@@ -73,9 +73,9 @@ export const hero = {
     href: "https://coveclinic.collums.co.uk/step/05f5e1010000000000000000/67c74aa250d51700254e7653",
   },
   drawing: {
-    src: "/brand/faces/halfface.svg",
-    ratio: 251.7 / 413.2,
-    alt: "Line drawing of a woman's profile",
+    src: "/brand/faces/line-face-tall.svg",
+    ratio: 390 / 1055,
+    alt: "Line drawing of a woman's face",
   },
 };
 
