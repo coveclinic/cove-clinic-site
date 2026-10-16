@@ -13,7 +13,7 @@ export function MeetGina() {
             alt={practitioner.photo.alt}
             fill
             sizes="(min-width: 768px) 40vw, 100vw"
-            className="scale-[1.4] object-cover origin-[30%_62%]"
+            className="scale-[1.4] object-cover origin-[30%_22%]"
             style={{ objectPosition: practitioner.photo.position }}
           />
         </div>
