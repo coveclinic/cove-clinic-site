@@ -88,17 +88,14 @@ export const approach = {
     {
       title: "Natural results",
       body: "Enhancement that looks like you on a good day, never overdone. We work with your features, not against them.",
-      mark: "halfface" as const,
     },
     {
       title: "Honest guidance",
       body: "If a treatment is not right for you, Gina will say so. Advice first, treatment second, and no pressure either way.",
-      mark: "earrings" as const,
     },
     {
       title: "Completely tailored to you",
       body: "No set menus. Every plan starts with a conversation about your skin, your goals and your life, and is built from there.",
-      mark: "head-tilted" as const,
     },
   ],
   cta: { label: "Meet your practitioner", href: "/about-us" },
@@ -546,17 +543,14 @@ export const about = {
       {
         title: "First-class nursing degree",
         body: "A BSc (Hons) in Nursing, first class. It is the foundation behind every treatment: a deep understanding of anatomy, precision, and a focus on your safety and wellbeing.",
-        mark: "halfface" as const,
       },
       {
         title: "Advanced injectables training",
         body: "Foundation and advanced training in anti-wrinkle injections and dermal fillers with Acquisition Aesthetics, one of the UK's most respected academies. Rigorous, hands-on courses led by medical experts, covering facial anatomy and complication management.",
-        mark: "earrings" as const,
       },
       {
         title: "Skin and wellness treatments",
         body: "Trained in microneedling, PRP, chemical peels and IV therapy, so care can be holistic. It is not just about injectables; it is about your skin's health and your long-term goals.",
-        mark: "head-tilted" as const,
       },
     ],
   },

@@ -1,9 +1,9 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { DrawingMark, type MarkName } from "@/components/DrawingMark";
+import { DrawingMark } from "@/components/DrawingMark";
 
-type Value = { title: string; body: string; mark: MarkName };
+type Value = { title: string; body: string };
 
 /** Where each card parks: just under the sticky header (88px) plus a little air. */
 const PARK = "top-[112px]";
@@ -45,11 +45,11 @@ export function ValueDeck({ items }: { items: Value[] }) {
           }}
           className={`sticky ${PARK} relative flex min-h-[260px] items-end overflow-hidden rounded-card border border-walnut/30 bg-white px-7 pb-7 pt-28 text-ink md:min-h-[300px] md:items-center md:py-10 md:pl-[232px] md:pr-10 lg:pl-[168px] xl:pl-[232px]`}
         >
-          {/* The disc bleeds off the card's edge, as the drawing bleeds off the hero:
+          {/* The disc bleeds off the card's edge:
               the top-left corner on a phone, the left edge from md. */}
           <DrawingMark
-            name={v.mark}
             tone="walnut"
+            markClassName="translate-x-[28%] translate-y-[28%] md:translate-y-0"
             className="absolute -left-8 -top-8 size-28 md:-left-14 md:top-1/2 md:size-52 md:-translate-y-1/2 lg:-left-10 lg:size-40 xl:-left-14 xl:size-52"
           />
           <div className="min-w-0">
