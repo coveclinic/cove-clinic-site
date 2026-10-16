@@ -1,14 +1,13 @@
 import { hero } from "@/lib/content";
 import { Button } from "@/components/Button";
-import { FaceArt } from "@/components/FaceArt";
 
 /** Card colour. Clay is the original; umber and walnut answer the client's ask for a darker brown. */
 export type HeroTone = "clay" | "umber" | "walnut";
 
-const tones: Record<HeroTone, { card: string; sub: string; art: string }> = {
-  clay: { card: "bg-clay text-ink", sub: "text-ink/72", art: "text-ink" },
-  umber: { card: "bg-umber text-ink", sub: "text-ink/72", art: "text-ink" },
-  walnut: { card: "bg-walnut text-paper", sub: "text-paper/72", art: "text-paper" },
+const tones: Record<HeroTone, { card: string; sub: string }> = {
+  clay: { card: "bg-clay text-ink", sub: "text-ink/72" },
+  umber: { card: "bg-umber text-ink", sub: "text-ink/72" },
+  walnut: { card: "bg-walnut text-paper", sub: "text-paper/72" },
 };
 
 type HeroProps = { tone?: HeroTone };
@@ -41,14 +40,8 @@ export function Hero({ tone = "walnut" }: HeroProps) {
           </div>
         </div>
 
-        <div className={`relative h-[380px] md:h-[520px] lg:h-full ${t.art}`}>
-          <FaceArt
-            src={hero.drawing.src}
-            ratio={hero.drawing.ratio}
-            alt={hero.drawing.alt}
-            className="-bottom-[6%] left-1/2 h-[112%] -translate-x-1/2 md:h-[120%] lg:-bottom-[4%] lg:left-auto lg:right-[12%] lg:h-[108%] lg:translate-x-0"
-          />
-        </div>
+        {/* Keeps the right-hand half open so the video shows; on phones it leaves room below the text. */}
+        <div className="relative h-[380px] md:h-[520px] lg:h-full" />
       </div>
     </section>
   );

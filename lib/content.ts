@@ -72,11 +72,6 @@ export const hero = {
     labelShort: "Book a free consultation",
     href: "https://coveclinic.collums.co.uk/step/05f5e1010000000000000000/67c74aa250d51700254e7653",
   },
-  drawing: {
-    src: "/brand/faces/line-face-tall.svg",
-    ratio: 390 / 1055,
-    alt: "Line drawing of a woman's face",
-  },
   /** Looping skincare video behind the walnut hero, toned to walnut. Wide for laptops, tall for phones. */
   video: {
     wide: { src: "/video/hero-face-wide.mp4", poster: "/video/hero-face-wide.jpg" },
