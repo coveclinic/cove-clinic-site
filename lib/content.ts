@@ -66,7 +66,7 @@ export const hero = {
     emphasis: "Natural",
     tail: "Aesthetics.",
   },
-  sub: "Tailored aesthetics, advanced skin treatments and laser hair removal in Penrith. Empowering confidence, anti-ageing and holistic wellbeing.",
+  sub: "Tailored Aesthetics and Advanced Skin treatments in Penrith. Empowering confidence, Skin harmony and holistic wellbeing. Specialising in Anti-Ageing and Acne.",
   cta: {
     label: "Book a free, non-obligatory consultation",
     labelShort: "Book a free consultation",
