@@ -62,7 +62,7 @@ export const treatmentsList = [
 
 export const hero = {
   headline: {
-    lead: "Results-driven skin.",
+    lead: "Results-Driven Skin.",
     emphasis: "Natural",
     tail: "Aesthetics.",
   },
