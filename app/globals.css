@@ -11,8 +11,8 @@
   --color-sage: #6c7260;
   --color-white: #ffffff;
 
-  --font-display: var(--font-fraunces);
-  --font-sans: var(--font-figtree);
+  --font-display: var(--font-cormorant);
+  --font-sans: var(--font-cormorant);
 
   --radius-card: 28px;
 }

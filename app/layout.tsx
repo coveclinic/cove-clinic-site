@@ -1,21 +1,13 @@
 import type { Metadata } from "next";
-import { Figtree, Fraunces } from "next/font/google";
+import { Cormorant_SC } from "next/font/google";
 import { site } from "@/lib/content";
 import "./globals.css";
 
-/** Display face. Variable, with the soft and optical-size axes so light weights stay warm at large sizes. */
-const fraunces = Fraunces({
-  variable: "--font-fraunces",
+/** One face for everything: headings and body text alike. */
+const cormorant = Cormorant_SC({
+  variable: "--font-cormorant",
   subsets: ["latin"],
-  style: ["normal", "italic"],
-  axes: ["SOFT", "opsz"],
-  display: "swap",
-});
-
-const figtree = Figtree({
-  variable: "--font-figtree",
-  subsets: ["latin"],
-  weight: ["400", "500"],
+  weight: ["300", "400", "500", "600"],
   display: "swap",
 });
 
@@ -46,7 +38,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en-GB"
-      className={`${fraunces.variable} ${figtree.variable} h-full`}
+      className={`${cormorant.variable} h-full`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
