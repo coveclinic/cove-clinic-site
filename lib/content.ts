@@ -505,7 +505,7 @@ export const about = {
   space: {
     id: "the-clinic",
     heading: "A calm room on Devonshire Street.",
-    body: "One treatment room, one practitioner, and a sofa to sit on while you talk. Nothing about the place is designed to hurry you.",
+    body: "One treatment room, one practitioner, and a soft sofa to sink into while we talk. It is a place to slow down, take a breath and feel at ease.",
     cta: { label: "Find us", href: "/#find-us" },
     photo: {
       src: "/photos/web/interior.jpg",
@@ -538,7 +538,7 @@ export const about = {
   training: {
     id: "training",
     heading: "Training and qualifications",
-    intro: "A clinical foundation first, then specialist aesthetics training on top of it.",
+    intro: "Years of nursing care first, then specialist aesthetics training built on that foundation.",
     items: [
       {
         title: "First-class nursing degree",
@@ -550,30 +550,30 @@ export const about = {
       },
       {
         title: "Skin and wellness treatments",
-        body: "Trained in microneedling, PRP, chemical peels and IV therapy, so care can be holistic. It is not just about injectables; it is about your skin's health and your long-term goals.",
+        body: "Trained in microneedling, PRP, chemical peels and IV therapy, so your care can be truly holistic. It is never just about injectables. It is about the health of your skin, how you feel, and your goals for the years ahead.",
       },
     ],
   },
   steps: {
     id: "how-a-visit-works",
     heading: "How a visit works",
-    intro: "Four steps, and no pressure at any of them.",
+    intro: "Four gentle steps, and never any pressure along the way.",
     items: [
       {
         title: "A free consultation",
-        body: "An unhurried conversation about your skin and what you would like to change. Honest advice, including when a treatment is not right for you.",
+        body: "A relaxed, unhurried conversation about your skin and how you would like to feel. Honest, caring advice, including when a treatment isn't right for you.",
       },
       {
         title: "A plan built around you",
-        body: "Options explained in plain terms, a plan shaped by your goals rather than a menu, and prices confirmed before anything goes ahead.",
+        body: "Your options explained clearly and kindly, a plan shaped around your goals rather than a menu, and prices confirmed before anything goes ahead.",
       },
       {
         title: "Treatment with Gina",
-        body: "Every treatment is carried out by Gina herself, in the clinic on Devonshire Street, using medical-grade products.",
+        body: "Every treatment is carried out by Gina herself, in the calm of the clinic on Devonshire Street, using medical-grade products.",
       },
       {
         title: "Aftercare and follow-up",
-        body: "Clear aftercare advice to take home, and a follow-up if you need one. You can get in touch at any point with a question.",
+        body: "Clear aftercare advice to take home, and a follow-up if you need one. Gina is always happy to hear from you if a question comes up, at any point.",
       },
     ],
   },

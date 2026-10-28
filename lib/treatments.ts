@@ -37,7 +37,7 @@ export const treatmentsIndex = {
   description:
     "Facials, peels, microneedling, polynucleotides, skin boosters, PRP, fillers and anti-wrinkle injections, nurse-led in Penrith. Prices, times and online booking.",
   heading: "Treatments.",
-  lead: "Ten treatments, one practitioner. Each is planned to your face at consultation by Gina, a registered nurse, never to a template.",
+  lead: "Ten treatments, all with one practitioner. Each one is planned around you and your skin by Gina, a registered nurse, never to a template.",
   readMore: "Read more",
 };
 
@@ -46,7 +46,7 @@ export const treatmentLabels = {
   root: "Treatments",
   atAGlance: "At a glance",
   questions: "Questions",
-  questionsIntro: "The things people ask before booking, answered honestly.",
+  questionsIntro: "The things people often wonder about before booking, answered openly and honestly.",
   questionsAsk: "Something else?",
   questionsPhone: "Call Gina on 07709 266584",
 };
@@ -66,7 +66,7 @@ export const treatmentPages: Record<string, TreatmentPage> = {
     description:
       "A free, no-obligation hour with Gina, a registered nurse, to talk through your skin and your options. Honest advice, no pressure. Book online in Penrith.",
     heading: "A free consultation.",
-    lead: "An unhurried hour to talk about your skin, your goals and what is possible. Honest advice, a plan if you want one, and no pressure either way.",
+    lead: "An unhurried hour to talk about your skin, your goals and how you would like to feel. Honest, caring advice, a plan if you would like one, and never any pressure.",
     photo: {
       src: "/photos/web/consultation.jpg",
       alt: "A practitioner assessing a client's face during a consultation",
@@ -81,11 +81,11 @@ export const treatmentPages: Record<string, TreatmentPage> = {
     sections: [
       {
         title: "Who is it for?",
-        body: "Anyone thinking about a treatment and not sure where to start, and anyone who simply wants an honest opinion about their skin. Acne, pigmentation, sensitivity, dehydration, texture, the first signs of ageing, or just wanting to look well: all fair subjects.",
+        body: "Anyone thinking about a treatment and not sure where to start, and anyone who simply wants an honest opinion about their skin. Acne, pigmentation, sensitivity, dehydration, texture, the first signs of ageing, or simply wanting to look and feel well. Whatever is on your mind, you are welcome to talk about it.",
       },
       {
         title: "What happens?",
-        body: "You talk and Gina listens. She assesses your skin, takes a medical history and asks what you would like to change, and just as importantly what you would not. Then she tells you plainly what would help and what would not. If a treatment is not right for you, she will say so.",
+        body: "You talk, and Gina listens. She assesses your skin, takes a medical history and asks what you would like to change, and just as importantly what you would not. Then she gently talks you through what would help and what would not. If a treatment isn't right for you, she will always tell you.",
       },
       {
         title: "What do you leave with?",
@@ -99,7 +99,7 @@ export const treatmentPages: Record<string, TreatmentPage> = {
       },
       {
         q: "Is there any pressure to book a treatment?",
-        a: "None. The consultation is free and obligation-free. It is a chance to ask questions and understand your options, whether that leads to skincare, a treatment, or nothing at all for now.",
+        a: "Not at all. The consultation is free and obligation-free. It is a chance to ask questions and understand your options, whether that leads to skincare, a treatment, or nothing at all for now.",
       },
       {
         q: "Will you recommend products?",
@@ -112,7 +112,7 @@ export const treatmentPages: Record<string, TreatmentPage> = {
     ],
     closing: {
       heading: "Ready to talk?",
-      body: "Book your free consultation online, or call or email. The clinic is open every day from 8am to 7pm, at 8 Devonshire Street in the centre of Penrith.",
+      body: "Book your free consultation online, or call or email if you would rather chat first. The clinic is open every day from 8am to 7pm, at 8 Devonshire Street in the centre of Penrith.",
     },
     bookingUrl: "https://coveclinic.collums.co.uk/step/05f5e1010000000000000000/67c74aa250d51700254e7653",
   },
@@ -146,7 +146,7 @@ export const treatmentPages: Record<string, TreatmentPage> = {
       },
       {
         title: "Which facial is right for me?",
-        body: "That depends on your skin and what you would like from it. If you are not sure, book any facial and tell Gina what is bothering you; she will recommend the best fit and tailor it on the day. As a rough guide: for dull or congested skin start with the Ultimate Reset, for dry and tight skin the Ultimate Hydration, and before an event the Lymphatic Drainage or Glass Skin.",
+        body: "That depends on your skin and what you would like from it. If you are not sure, book any facial and tell Gina how your skin has been feeling; she will recommend the best fit and tailor it on the day. As a rough guide: for dull or congested skin start with the Ultimate Reset, for dry and tight skin the Ultimate Hydration, and before an event the Lymphatic Drainage or Glass Skin.",
       },
       {
         title: "What should I expect afterwards?",
@@ -192,7 +192,7 @@ export const treatmentPages: Record<string, TreatmentPage> = {
     questions: [
       {
         q: "Which facial should I book first?",
-        a: "If in doubt, the Ultimate Reset: it suits most skin and gives Gina a good look at yours. Or book any facial and say what is bothering you. The steps are adapted on the day, so you will not end up with the wrong one.",
+        a: "If in doubt, the Ultimate Reset: it suits most skin and gives Gina a good look at yours. Or book any facial and tell Gina how your skin has been feeling. The steps are adapted on the day, so you will not end up with the wrong one.",
       },
       {
         q: "How often should I have a facial?",
@@ -250,7 +250,7 @@ export const treatmentPages: Record<string, TreatmentPage> = {
       },
       {
         title: "What should I expect afterwards?",
-        body: "Nothing to hide. The injection points settle within the hour, and the occasional small bruise is easily covered. The effect comes on gradually: softer from three to five days, fully settled at two weeks, and typically lasting three to six months. Movement returns gently as it wears off, and with regular treatment the lines tend to look less severe over time. You leave with written aftercare and a follow-up if you want one.",
+        body: "There is very little to see afterwards. The injection points settle within the hour, and the occasional small bruise is easily covered. The effect comes on gradually: softer from three to five days, fully settled at two weeks, and typically lasting three to six months. Movement returns gently as it wears off, and with regular treatment the lines tend to look less severe over time. You leave with written aftercare and a follow-up if you want one.",
       },
     ],
     menu: {
@@ -287,7 +287,7 @@ export const treatmentPages: Record<string, TreatmentPage> = {
     questions: [
       {
         q: "Will my face look frozen?",
-        a: "No. The frozen look comes from too much in one area. Gina plans the dose to your face and to the look you want, which is the point of the consultation. You will still raise your eyebrows, smile and frown; the lines just soften.",
+        a: "Not at all. A frozen look comes from too much in one area. Gina plans the dose to your face and to the look you want, which is what the consultation is for. You will still raise your eyebrows, smile and frown; the lines just soften.",
       },
       {
         q: "How long does it last?",
@@ -317,7 +317,7 @@ export const treatmentPages: Record<string, TreatmentPage> = {
     description:
       "Medik8 chemical peels in Penrith for dull, uneven, congested or blemish-prone skin, chosen for you by a registered nurse. £85, or £230 for three. Book online.",
     heading: "Chemical peels.",
-    lead: "A professional Medik8 resurfacing peel, chosen for your skin, that clears away dull and damaged surface cells for a smoother, brighter and more even complexion. Best as a course.",
+    lead: "A professional Medik8 resurfacing peel, chosen for your skin, that gently lifts away dull, tired surface cells for a smoother, brighter and more even complexion. Best as a course.",
     photo: {
       src: "/photos/web/chemical-peel.jpg",
       alt: "Medik8 professional peel bottles on a white table",
@@ -343,7 +343,7 @@ export const treatmentPages: Record<string, TreatmentPage> = {
       },
       {
         title: "What should I expect afterwards?",
-        body: "Skin looks fresher and brighter within days, with the full result showing at around two weeks as the skin renews. Depending on the strength of the peel you may get some light flaking for a few days: a normal part of the process, not a problem. For the first week or so you follow a simple skincare routine and keep out of the sun. Results build with each peel, which is why a course of three to six is recommended.",
+        body: "Skin looks fresher and brighter within days, with the full result showing at around two weeks as the skin renews. Depending on the strength of the peel you may get some light flaking for a few days: a completely normal part of the process and nothing to worry about. For the first week or so you follow a simple skincare routine and keep out of the sun. Results build with each peel, which is why a course of three to six is recommended.",
       },
     ],
     menu: {
@@ -400,7 +400,7 @@ export const treatmentPages: Record<string, TreatmentPage> = {
     description:
       "Microneedling in Penrith by a registered nurse: collagen-stimulating treatment for fine lines, acne scarring, pores and texture. From £125. Book online.",
     heading: "Microneedling.",
-    lead: "The skin's own repair response, put to work. Fine, sterile needles prompt new collagen and elastin for firmer, smoother, more even skin: fine lines, acne scarring, pores and texture all improve. Best as a course of three.",
+    lead: "A gentle way to support your skin's own natural renewal. Fine, sterile needles encourage new collagen and elastin for firmer, smoother, more even skin, and can help with fine lines, acne scarring, pores and texture. Best as a course of three.",
     photo: {
       src: "/photos/web/microneedling.jpg",
       alt: "Gina carrying out a skin treatment at Cove Clinic in Penrith",
@@ -483,7 +483,7 @@ export const treatmentPages: Record<string, TreatmentPage> = {
     description:
       "Polynucleotide treatment in Penrith: regenerative injections for firmer, better-hydrated skin on the face, eyes, neck and scalp. From £175. Book online.",
     heading: "Polynucleotides.",
-    lead: "A regenerative treatment that improves skin quality from within. Purified DNA fragments prompt your skin to make new collagen, hold more water and repair itself: firmer, smoother, better-hydrated skin, rather than added volume.",
+    lead: "A gentle, regenerative treatment that supports the quality of your skin from within. Purified DNA fragments prompt your skin to make new collagen, hold more water and repair itself: firmer, smoother, better-hydrated skin, rather than added volume.",
     photo: {
       src: "/photos/web/polynucleotides.jpg",
       alt: "A close-up of clear bubbles suspended in oil",
@@ -568,12 +568,12 @@ export const treatmentPages: Record<string, TreatmentPage> = {
   "dermal-fillers": {
     slug: "dermal-fillers",
     name: "Dermal fillers",
-    summary: "Hyaluronic acid filler to restore volume and definition, placed with restraint.",
+    summary: "Hyaluronic acid filler to restore volume and definition, placed with a light, careful touch.",
     title: "Dermal Fillers in Penrith",
     description:
       "Dermal fillers in Penrith by a registered nurse: cheeks, chin, jawline, lips and lines, planned to your face for a natural result. Starts with a consultation.",
     heading: "Dermal fillers.",
-    lead: "Hyaluronic acid filler to restore what time takes away: volume in the cheeks, definition in the chin and jaw, softness in deep lines, shape in the lips. Placed with restraint, so the change is in how well you look, not how different.",
+    lead: "Hyaluronic acid filler to gently restore what time takes away: volume in the cheeks, definition in the chin and jaw, softness in deep lines, shape in the lips. Placed with a light, careful touch, so the change is in how well you look, not how different.",
     photo: {
       src: "/photos/web/dermal-fillers.jpg",
       alt: "Gina carrying out a dermal filler treatment at Cove Clinic in Penrith",
@@ -641,7 +641,7 @@ export const treatmentPages: Record<string, TreatmentPage> = {
     questions: [
       {
         q: "Will it look natural?",
-        a: "Yes, if it is done with restraint and a good eye for proportion. Gina's approach is to restore what has been lost rather than add what was never there, and to treat the face as a whole. Overfilled is not a look anyone leaves with.",
+        a: "Yes, when it is done with care and a good eye for proportion. Gina's approach is to restore what has been lost rather than add what was never there, and to treat the face as a whole. Gina never aims for an overfilled look.",
       },
       {
         q: "Does it hurt?",
@@ -653,12 +653,12 @@ export const treatmentPages: Record<string, TreatmentPage> = {
       },
       {
         q: "What if I don't like the result?",
-        a: "Talk to Gina. A review at two weeks is part of the treatment, and small adjustments are made then. Hyaluronic acid filler can also be dissolved if ever needed, which is one reason it is the only kind used here.",
+        a: "Just talk to Gina. A review at two weeks is part of the treatment, and small adjustments are made then. Hyaluronic acid filler can also be dissolved if ever needed, which is one reason it is the only kind used here.",
       },
     ],
     closing: {
       heading: "Start with a consultation",
-      body: "Filler is planned to your face, so it starts with a conversation. Book a consultation online, or call or email to arrange one with Gina at 8 Devonshire Street in the centre of Penrith.",
+      body: "Filler is planned around your face, so it always starts with a relaxed conversation. Book a consultation online, or call or email to arrange one with Gina at 8 Devonshire Street in the centre of Penrith.",
     },
     // The booking system lists no filler services yet; the owner wants the link live regardless (15 Oct 2026).
     bookingUrl: "https://coveclinic.collums.co.uk/step/05f5e1010000000000000000/66fbb62a40250c002508d297",
@@ -742,12 +742,12 @@ export const treatmentPages: Record<string, TreatmentPage> = {
       },
       {
         q: "What if I don't like the result?",
-        a: "Talk to Gina. The swelling of the first few days is not the result, so wait for the two-week review, when small adjustments are made. If something needs to change, hyaluronic acid filler can be dissolved.",
+        a: "Just talk to Gina. The swelling of the first few days is not the result, so wait for the two-week review, when small adjustments are made. If something needs to change, hyaluronic acid filler can be dissolved.",
       },
     ],
     closing: {
       heading: "Start with a consultation",
-      body: "Lip filler is planned to your face, so it starts with a conversation. Book a consultation online, or call or email to arrange one with Gina at 8 Devonshire Street in the centre of Penrith.",
+      body: "Lip filler is planned around your face, so it always starts with a relaxed conversation. Book a consultation online, or call or email to arrange one with Gina at 8 Devonshire Street in the centre of Penrith.",
     },
     bookingUrl: "https://coveclinic.collums.co.uk/step/05f5e1010000000000000000/66fbb62a40250c002508d297",
   },
@@ -848,7 +848,7 @@ export const treatmentPages: Record<string, TreatmentPage> = {
     description:
       "PRP therapy in Penrith: your own growth factors for skin rejuvenation, acne scarring and thinning hair, by a registered nurse. From £170. Book online.",
     heading: "PRP therapy.",
-    lead: "Platelet-rich plasma: a concentrate of your own blood's growth factors, returned to the skin or scalp to prompt repair. For skin quality, acne scarring and stretch marks, and for thinning hair. Nothing in it but you.",
+    lead: "Platelet-rich plasma: a concentrate of your own blood's growth factors, returned to the skin or scalp to prompt repair. For skin quality, acne scarring and stretch marks, and for thinning hair. Made entirely from you, with nothing added.",
     photo: {
       src: "/photos/web/prp.jpg",
       alt: "Gina working at a client's hairline during a treatment at Cove Clinic in Penrith",
