@@ -83,19 +83,19 @@ export const approach = {
   id: "our-approach",
   heading: "Our approach",
   statement:
-    "More than aesthetic treatments. A calm, welcoming space to talk openly about your skin with an experienced medical professional, and a plan made for you.",
+    "More than aesthetic treatments. A calm, welcoming space where you can take your time, talk openly about your skin with an experienced nurse, and find a plan that feels right for you and your wellbeing.",
   values: [
     {
       title: "Natural results",
-      body: "Enhancement that looks like you on a good day, never overdone. We work with your features, not against them.",
+      body: "Gentle enhancement that looks like you on a good day, never overdone. We work with your natural features, not against them.",
     },
     {
       title: "Honest guidance",
-      body: "If a treatment is not right for you, Gina will say so. Advice first, treatment second, and no pressure either way.",
+      body: "If a treatment isn't right for you, Gina will always tell you. Advice comes first and treatment second, and there is never any pressure.",
     },
     {
       title: "Completely tailored to you",
-      body: "No set menus. Every plan starts with a conversation about your skin, your goals and your life, and is built from there.",
+      body: "There are no set menus here. Every plan begins with a conversation about your skin, your goals and your life, and grows gently from there.",
     },
   ],
   cta: { label: "Meet your practitioner", href: "/about-us" },
@@ -104,12 +104,12 @@ export const approach = {
 export const treatments = {
   id: "treatments",
   heading: "Treatment focus",
-  intro: "Medical-grade treatments, planned around the concern that brought you in.",
+  intro: "Caring, medical-grade treatments, planned around you and the concern that brought you in.",
   cta: { label: "See all treatments", href: "/treatments" },
   items: [
     {
       name: "Facial balancing",
-      line: "Dermal fillers, lip enhancement and anti-wrinkle injections for harmony, not change.",
+      line: "Dermal fillers, lip enhancement and anti-wrinkle injections to bring gentle balance to your features, never to change who you are.",
       href: "/treatments/dermal-fillers",
       image: {
         src: "/photos/web/facial-hands.jpg",
@@ -119,7 +119,7 @@ export const treatments = {
     },
     {
       name: "Skin concerns",
-      line: "Facials, chemical peels and microneedling for acne, texture, pigmentation and glow.",
+      line: "Facials, chemical peels and microneedling to help with acne, texture and pigmentation, and bring out your skin's natural glow.",
       href: "/treatments/facials",
       image: {
         src: "/photos/web/facial-hands.jpg",
@@ -129,7 +129,7 @@ export const treatments = {
     },
     {
       name: "Anti-ageing",
-      line: "Skin boosters, polynucleotides and PRP to support firmer, healthier skin over time.",
+      line: "Skin boosters, polynucleotides and PRP to nourish your skin and support it to feel firmer and healthier over time.",
       href: "/treatments/skin-boosters",
       image: {
         src: "/photos/web/facial-hands.jpg",
@@ -139,7 +139,7 @@ export const treatments = {
     },
     {
       name: "Hair loss",
-      line: "PRP therapy to encourage regrowth and strengthen thinning hair.",
+      line: "PRP therapy to gently support thinning hair and encourage healthy regrowth.",
       href: "/treatments/prp",
       image: {
         src: "/photos/web/facial-hands.jpg",
@@ -154,7 +154,7 @@ export const band = {
   id: "nurse-led",
   eyebrow: "Nurse-led, in Penrith",
   statement: "The kind of results people notice, without ever knowing why.",
-  body: "Nothing overfilled, nothing you didn't ask for. Every treatment is carried out by Gina, a registered nurse, and planned with you before anything goes ahead.",
+  body: "You'll never be overdone or offered anything you didn't ask for. Every treatment is carried out by Gina, a registered nurse, and planned together with you before anything goes ahead.",
 };
 
 export const practitioner = {
@@ -166,7 +166,7 @@ export const practitioner = {
     position: "50% 30%",
   },
   intro:
-    "Gina is a fully qualified, experienced registered nurse and aesthetic practitioner, and the founder of Cove Clinic.",
+    "Gina is a fully qualified, experienced registered nurse and aesthetic practitioner, and the founder of Cove Clinic. She cares about how you feel as much as how your skin looks.",
   credentials: [
     "First-class honours degree in Nursing",
     "Registered Nurse",
@@ -174,7 +174,7 @@ export const practitioner = {
     "Trained in microneedling, PRP, chemical peels and IV therapy",
   ],
   quote:
-    "Natural-looking results, healthy skin, and treatments tailored to your individual goals.",
+    "Healthy skin, natural-looking results, and care that is shaped around you and how you want to feel.",
   cta: { label: "About Gina", href: "/about-us" },
 };
 
@@ -217,11 +217,11 @@ export const reviews = {
 export const questions = {
   id: "questions",
   heading: "Questions, answered",
-  intro: "The things people ask before a first visit, answered honestly.",
+  intro: "The things people often wonder about before a first visit, answered openly and honestly.",
   items: [
     {
       q: "Will my results look natural?",
-      a: "That is the whole point. Gina works with your features rather than against them, so results are subtle, balanced and still look like you. If you want more, we build up gradually over time, never all at once.",
+      a: "Yes, that is always the aim. Gina works with your features rather than against them, so results are subtle, balanced and still look like you. If you would like more, we build up gently over time, never all at once.",
     },
     {
       q: "What happens at a free consultation?",
@@ -229,7 +229,7 @@ export const questions = {
     },
     {
       q: "Is it safe, and who carries out the treatments?",
-      a: "Every treatment at Cove is carried out by Gina, a registered nurse with advanced aesthetics training, using medical-grade products in a clinical setting. Nothing goes ahead without a full consultation and medical history, and we do not treat anyone under 18.",
+      a: "Every treatment at Cove is carried out by Gina, a registered nurse with advanced aesthetics training, using medical-grade products in a clinical setting. Nothing goes ahead until you have had a full consultation and we have talked through your medical history, and we do not treat anyone under 18.",
     },
     {
       q: "Does it hurt, and is there any downtime?",
@@ -255,14 +255,14 @@ export const questions = {
 };
 
 export const questionBar = {
-  text: "Unsure what treatment is right for you?",
+  text: "Not sure which treatment is right for you?",
   cta: { label: "Book a free consultation", href: "https://coveclinic.collums.co.uk/step/05f5e1010000000000000000/67c74aa250d51700254e7653" },
 };
 
 export const visit = {
   id: "visit",
   heading: "Visit the clinic",
-  body: "A calm space in the heart of Penrith, a few minutes from the station. Open every day, with treatments by appointment. Come in for a free consultation, or just to ask a question.",
+  body: "A calm, welcoming space in the heart of Penrith, a few minutes from the station. We're open every day, with treatments by appointment. You're always welcome to come in for a free consultation, or simply to ask a question.",
   hoursHeading: "Opening hours",
   cta: { label: "Book a free consultation", href: "https://coveclinic.collums.co.uk/step/05f5e1010000000000000000/67c74aa250d51700254e7653" },
 };
