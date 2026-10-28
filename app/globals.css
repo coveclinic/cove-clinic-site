@@ -1,6 +1,19 @@
 @import "tailwindcss";
 
 /*
+ * Tailwind's hover: only fires when the primary pointer can hover, which rules
+ * out an iPad with a mouse or trackpad attached. This fires when any pointer
+ * can, while touch-only phones still skip it and avoid sticky hover after a tap.
+ */
+@custom-variant pointer-hover {
+  @media (any-hover: hover) {
+    &:hover {
+      @slot;
+    }
+  }
+}
+
+/*
  * Cormorant's hyphen rises about 10 degrees. These two tiny fonts hold only the
  * hyphen (and soft hyphen), cut from Cormorant and turned level, and sit first in
  * the font stack so every hyphen on the site reads flat. Everything else falls

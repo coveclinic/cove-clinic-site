@@ -16,8 +16,8 @@ type ButtonProps = {
 export function Button({ href, label, labelShort, tone = "ink" }: ButtonProps) {
   const colours =
     tone === "paper"
-      ? "border-paper/80 text-paper hover:border-paper hover:bg-paper hover:text-walnut"
-      : "border-walnut/70 text-ink hover:border-walnut hover:bg-walnut hover:text-paper";
+      ? "border-paper/80 text-paper pointer-hover:border-paper pointer-hover:bg-paper pointer-hover:text-walnut"
+      : "border-walnut/70 text-ink pointer-hover:border-walnut pointer-hover:bg-walnut pointer-hover:text-paper";
   return (
     <Link
       href={href}
